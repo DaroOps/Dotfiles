@@ -130,23 +130,19 @@ apss=(
 "zathura"
 )
 
-# Install each app
 for app in "${apps[@]}"; do
   sudo pacman -S --needed --noconfirm "$app"
 done
 
-#Gen user dirs
-echo"CREATE USER DIRS"
+# Generate user dirs
+echo "CREATE USER DIRS"
 xdg-user-dirs-update
 
-# Ruta a la carpeta de respaldo
-
+# Restore Dotfiles
 echo "RESTORING DOTFILES"
 ruta_respaldo="$HOME/Hephaestus/BackUp"
 
-# Verificar si la carpeta de respaldo existe
 if [ -d "$ruta_respaldo" ]; then
-    # Restaurar archivos desde el respaldo
     echo "Restaurando archivos de respaldo..."
     cp -r "$ruta_respaldo"/* "$HOME/.config/"
     echo "Restauración completada."
@@ -155,13 +151,11 @@ else
     exit 1
 fi
 
+# Restore xinitrc
 echo "RESTORE XINITRC"
-# Ruta a la carpeta de respaldo
 ruta_respaldo="$HOME/Hephaestus/xInit"
 
-# Verificar si la carpeta de respaldo existe
 if [ -d "$ruta_respaldo" ]; then
-    # Restaurar el archivo xinitrc desde el respaldo
     echo "Restaurando el archivo xinitrc desde el respaldo..."
     cp "$ruta_respaldo/xinitrc" "$HOME/.xinitrc"
     echo "Restauración completada."
@@ -173,6 +167,4 @@ fi
 # Message
 echo "I'm holding on to what I know
 And what I know, I must let go..."
-
-
 
