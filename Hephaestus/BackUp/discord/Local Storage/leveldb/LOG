@@ -1,0 +1,8 @@
+2024/01/14-16:15:52.989 548e Reusing MANIFEST /home/daro_ops/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2024/01/14-16:15:52.990 548e Recovering log #27
+2024/01/14-16:15:53.000 548e Level-0 table #32: started
+2024/01/14-16:15:53.077 548e Level-0 table #32: 722477 bytes OK
+2024/01/14-16:15:53.172 548e Delete type=0 #27
+2024/01/14-21:15:48.465 4e1ba Level-0 table #35: started
+2024/01/14-21:15:48.579 4e1ba Level-0 table #35: 2059774 bytes OK
+2024/01/14-21:15:48.694 4e1ba Delete type=0 #33

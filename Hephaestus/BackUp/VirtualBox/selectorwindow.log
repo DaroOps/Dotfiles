@@ -1,0 +1,20 @@
+00:00:00.623046 VirtualBox GUI VM Selector Window 7.0.12 r159484 linux.amd64 (Oct 17 2023 12:57:12) release log
+00:00:00.623049 Log opened 2024-01-15T02:25:01.198472000Z
+00:00:00.623049 Build Type: release
+00:00:00.623055 OS Product: Linux
+00:00:00.623056 OS Release: 6.6.10-arch1-1
+00:00:00.623057 OS Version: #1 SMP PREEMPT_DYNAMIC Fri, 05 Jan 2024 16:20:41 +0000
+00:00:00.623083 DMI Product Name: HP Laptop 14-ck1xxx
+00:00:00.623092 DMI Product Version: Type1ProductConfigId
+00:00:00.623096 Firmware type: UEFI
+00:00:00.624007 Secure Boot: Disabled
+00:00:00.624066 Host RAM: 7830MB (7.6GB) total, 3633MB (3.5GB) available
+00:00:00.624070 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.624070 Process ID: 350738
+00:00:00.624071 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.624114 Qt version: 5.15.12
+00:00:00.625022 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:00.629285 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.629314 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:01.773241 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 1 work area is actually resized to: 1155x835 x 367x488
+00:00:01.773595 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 776x835 x 367x488

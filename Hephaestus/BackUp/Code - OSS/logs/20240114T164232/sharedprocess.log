@@ -1,0 +1,54 @@
+2024-01-14 16:42:40.770 [info] Started initializing default profile extensions in extensions installation folder. file:///home/daro_ops/.vscode-oss/extensions
+2024-01-14 16:42:41.343 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/daro_ops/.vscode-oss/extensions
+2024-01-14 18:55:21.177 [info] Getting Manifest... pkief.material-icon-theme
+2024-01-14 18:55:21.338 [info] Installing extension: pkief.material-icon-theme
+2024-01-14 18:55:24.119 [info] Extension signature verification is not done: pkief.material-icon-theme
+2024-01-14 18:55:24.825 [info] Extracted extension to file:///home/daro_ops/.vscode-oss/extensions/pkief.material-icon-theme-4.33.0-universal: pkief.material-icon-theme
+2024-01-14 18:55:24.903 [info] Renamed to /home/daro_ops/.vscode-oss/extensions/pkief.material-icon-theme-4.33.0-universal
+2024-01-14 18:55:24.913 [info] Extracting extension completed. pkief.material-icon-theme
+2024-01-14 18:55:24.976 [info] Extension installed successfully: pkief.material-icon-theme
+2024-01-14 18:55:25.015 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/daro_ops/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/daro_ops/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30056)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30170)
+    at s.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36175)
+    at s.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:28621)
+    at async E.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:15732)
+    at async Y.tb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:100:111319)
+2024-01-14 18:57:36.210 [info] Getting Manifest... catppuccin.catppuccin-vsc
+2024-01-14 18:57:36.623 [info] Installing extension: catppuccin.catppuccin-vsc
+2024-01-14 18:57:38.134 [info] Extension signature verification is not done: catppuccin.catppuccin-vsc
+2024-01-14 18:57:38.185 [info] Extracted extension to file:///home/daro_ops/.vscode-oss/extensions/catppuccin.catppuccin-vsc-3.11.0-universal: catppuccin.catppuccin-vsc
+2024-01-14 18:57:38.221 [info] Renamed to /home/daro_ops/.vscode-oss/extensions/catppuccin.catppuccin-vsc-3.11.0-universal
+2024-01-14 18:57:38.226 [info] Extracting extension completed. catppuccin.catppuccin-vsc
+2024-01-14 18:57:38.290 [info] Extension installed successfully: catppuccin.catppuccin-vsc
+2024-01-14 18:57:38.315 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/daro_ops/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/daro_ops/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30056)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30170)
+    at s.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36175)
+    at s.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:28621)
+    at async E.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:15732)
+    at async Y.tb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:100:111319)
+2024-01-14 18:58:49.954 [info] Uninstalling extension from the profile: catppuccin.catppuccin-vsc@3.11.0 vscode-userdata:/home/daro_ops/.vscode-oss/extensions/extensions.json
+2024-01-14 18:58:50.080 [info] Marked extension as uninstalled catppuccin.catppuccin-vsc-3.11.0-universal
+2024-01-14 18:58:50.215 [info] Successfully uninstalled extension from the profile catppuccin.catppuccin-vsc@3.11.0 vscode-userdata:/home/daro_ops/.vscode-oss/extensions/extensions.json
+2024-01-14 18:58:55.415 [info] Getting Manifest... a5hk.ice
+2024-01-14 18:58:55.560 [info] Installing extension: a5hk.ice
+2024-01-14 18:58:56.985 [info] Extension signature verification is not done: a5hk.ice
+2024-01-14 18:58:57.008 [info] Extracted extension to file:///home/daro_ops/.vscode-oss/extensions/a5hk.ice-2.0.0-universal: a5hk.ice
+2024-01-14 18:58:57.076 [info] Renamed to /home/daro_ops/.vscode-oss/extensions/a5hk.ice-2.0.0-universal
+2024-01-14 18:58:57.079 [info] Extracting extension completed. a5hk.ice
+2024-01-14 18:58:57.178 [info] Extension installed successfully: a5hk.ice
+2024-01-14 18:59:20.257 [info] Getting Manifest... monokai.theme-monokai-pro-vscode
+2024-01-14 18:59:20.399 [info] Installing extension: monokai.theme-monokai-pro-vscode
+2024-01-14 18:59:21.926 [info] Extension signature verification is not done: monokai.theme-monokai-pro-vscode
+2024-01-14 18:59:21.989 [info] Extracted extension to file:///home/daro_ops/.vscode-oss/extensions/monokai.theme-monokai-pro-vscode-1.2.2-universal: monokai.theme-monokai-pro-vscode
+2024-01-14 18:59:22.045 [info] Renamed to /home/daro_ops/.vscode-oss/extensions/monokai.theme-monokai-pro-vscode-1.2.2-universal
+2024-01-14 18:59:22.047 [info] Extracting extension completed. monokai.theme-monokai-pro-vscode
+2024-01-14 18:59:22.094 [info] Extension installed successfully: monokai.theme-monokai-pro-vscode
+2024-01-14 18:59:22.115 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/daro_ops/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/daro_ops/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30056)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30170)
+    at s.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36175)
+    at s.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:28621)
+    at async E.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:15732)
+    at async Y.tb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:100:111319)
