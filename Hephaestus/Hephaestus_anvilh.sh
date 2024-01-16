@@ -1,7 +1,16 @@
 #!/bin/bash
 
+echo "  
+  _   _            _                    _                     _ 
+ | | | | ___ _ __ | |__   __ _  ___ ___| |_ _   _ ___  __   _/ |
+ | |_| |/ _ | '_ \| '_ \ / _` |/ _ / __| __| | | / __| \ \ / | |
+ |  _  |  __| |_) | | | | (_| |  __\__ | |_| |_| \__ \  \ V /| |
+ |_| |_|\___| .__/|_| |_|\__,_|\___|___/\__|\__,_|___/   \_/ |_|
+            |_|                                                 
+"
+
 # List applications to install
-apss=(
+APPS=(
 "arandr"
 "base"
 "base-devel"
@@ -130,41 +139,58 @@ apss=(
 "zathura"
 )
 
-for app in "${apps[@]}"; do
-  sudo pacman -S --needed --noconfirm "$app"
+for APP in "${APPS[@]}"; do
+  if ! command -v "$APP" &> /dev/null; then
+    echo "Installing $APP..."
+    sudo pacman -S --needed --noconfirm "$APP" || { echo "Error installing $APP"; exit 1; }
+  else
+    echo "$APP is already installed, skipping..."
+  fi
 done
 
 # Generate user dirs
-echo "CREATE USER DIRS"
-xdg-user-dirs-update
+echo "Creating user directories..."
+
+# List of directories to check and create if they don't exist
+USER_DIRECTORIES=(
+  "Desktop"
+  "Downloads"
+  # Add more directories as needed
+)
+
+for DIR in "${USER_DIRECTORIES[@]}"; do
+  DIR_PATH="$HOME/$DIR"
+  if [ ! -d "$DIR_PATH" ]; then
+    xdg-user-dirs-update --set "$DIR" "$DIR_PATH"
+    echo "$DIR directory created or updated."
+  else
+    echo "$DIR directory already exists, skipping."
+  fi
+done
 
 # Restore Dotfiles
-echo "RESTORING DOTFILES"
-ruta_respaldo="$HOME/Hephaestus/BackUp"
+echo "Restoring backup files..."
+BACKUP_PATH="$HOME/Hephaestus/BackUp/"
 
-if [ -d "$ruta_respaldo" ]; then
-    echo "Restaurando archivos de respaldo..."
-    cp -r "$ruta_respaldo"/* "$HOME/.config/"
-    echo "Restauración completada."
+if [ -d "$BACKUP_PATH" ]; then
+    cp -r "$BACKUP_PATH"/* "$HOME/.config/" || { echo "Error restoring backup files"; exit 1; }
+    echo "Restoration completed."
 else
-    echo "Error: No se encontró la carpeta de respaldo."
+    echo "Error: Backup folder not found."
     exit 1
 fi
 
 # Restore xinitrc
-echo "RESTORE XINITRC"
-ruta_respaldo="$HOME/Hephaestus/xInit"
+echo "Restoring xinitrc file from backup..."
+BACKUP_PATH="$HOME/Hephaestus/xInit/"
 
-if [ -d "$ruta_respaldo" ]; then
-    echo "Restaurando el archivo xinitrc desde el respaldo..."
-    cp "$ruta_respaldo/xinitrc" "$HOME/.xinitrc"
-    echo "Restauración completada."
+if [ -d "$BACKUP_PATH" ]; then
+    cp "$BACKUP_PATH/xinitrc" "$HOME/.xinitrc" || { echo "Error restoring xinitrc"; exit 1; }
+    echo "Restoration completed."
 else
-    echo "Error: No se encontró la carpeta de respaldo."
+    echo "Error: Backup folder not found."
     exit 1
 fi
 
-# Message
-echo "I'm holding on to what I know
-And what I know, I must let go..."
-
+# Final message
+echo "The script ran successfully. Ready to use!"
