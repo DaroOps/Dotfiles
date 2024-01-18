@@ -183,15 +183,34 @@ USER_DIRECTORIES=(
   "Documents"
   "Music"
   "Videos"
+  "Public"
+  "Templates"
 )
+NEED_XDG_UPDATE=false
 
 for DIR in "${USER_DIRECTORIES[@]}"; do
   DIR_PATH="$HOME/$DIR"
   if [ ! -d "$DIR_PATH" ]; then
-    xdg-user-dirs-update --set "$DIR" "$DIR_PATH"
-    echo "$DIR directory created or updated."
+    NEED_XDG_UPDATE=true
+    break
+  fi
+done
+
+# Execute xdg-user-dirs-update only if needs an update
+if [ "$NEED_XDG_UPDATE" = true ]; then
+  xdg-user-dirs-update
+  echo "User directories updated with xdg-user-dirs-update."
+else
+  echo "No missing directories, skipping xdg-user-dirs-update."
+fi
+
+for DIR in "${USER_DIRECTORIES[@]}"; do
+  DIR_PATH="$HOME/$DIR"
+  if [ ! -d "$DIR_PATH" ]; then
+    echo "$DIR directory is missing. Creating manually..."
+    mkdir -p "$DIR_PATH"
   else
-    echo "$DIR directory already exists, skipping."
+    echo "$DIR directory already exists."
   fi
 done
 
