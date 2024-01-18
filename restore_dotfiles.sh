@@ -216,7 +216,8 @@ done
 
 # Restore Dotfiles
 echo "Restoring backup files..."
-BACKUP_PATH="$HOME/Dotfiles/BackUp"
+BACKUP_PATH="$SUDO_USER/Dotfiles/BackUp"
+echo "The path for restore dotfiles are: $BACKUP_PATH"
 
 if [ -d "$BACKUP_PATH" ]; then
     echo "Restoring dotfiles from backup..."
@@ -229,7 +230,7 @@ fi
 
 # Restore xinitrcxinitrc
 echo "Restoring xinitrc file from backup..."
-BACKUP_PATH_XINIT="$HOME/Dotfiles/xInit"
+BACKUP_PATH_XINIT="$SUDO_USER/Dotfiles/xInit"
 
 if [ -d "$BACKUP_PATH_XINIT" ]; then
     cp "$BACKUP_PATH_XINIT/xinitrc" "$HOME/.xinitrc" || { echo "Error restoring xinitrc"; exit 1; }
