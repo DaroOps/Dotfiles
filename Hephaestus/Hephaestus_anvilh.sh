@@ -138,7 +138,16 @@ APPS=(
 "xterm"
 "zathura"
 )
-FAILED_APPS = ()
+FAILED_APPS =()
+
+if [ "$(id -u)" -ne 0 ]; then
+  echo "Error: Este script debe ejecutarse con privilegios de administrador."
+  exit 1
+fi
+
+# Actualizar el sistema
+echo "Actualizando el sistema..."
+sudo pacman -Syu --noconfirm || { echo "Error en la actualización del sistema"; exit 1; }
 
 if [ "$(id -u)" -ne 0 ]; then
   echo "Error: Este script debe ejecutarse con privilegios de administrador."
