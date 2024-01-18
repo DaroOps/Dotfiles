@@ -216,10 +216,10 @@ done
 
 # Restore Dotfiles
 echo "Restoring backup files..."
-BACKUP_PATH="$HOME/Dotfiles/BackUp/"
+BACKUP_PATH="$HOME/Dotfiles/BackUp"
 
-if test -d "$BACKUP_PATH"; then
-   echo "Restoring dotfiles from backup..."
+if [ -d "$BACKUP_PATH" ]; then
+    echo "Restoring dotfiles from backup..."
     cp -r "$BACKUP_PATH"/* "$HOME/.config/"
     echo "Restoration completed."
 else
@@ -229,10 +229,10 @@ fi
 
 # Restore xinitrcxinitrc
 echo "Restoring xinitrc file from backup..."
-BACKUP_PATH="$HOME/Dotfiles/xInit/"
+BACKUP_PATH_XINIT="$HOME/Dotfiles/xInit"
 
-if test -d "$BACKUP_PATH"; then
-    cp "$BACKUP_PATH/xinitrc" "$HOME/.xinitrc" || { echo "Error restoring xinitrc"; exit 1; }
+if [ -d "$BACKUP_PATH_XINIT" ]; then
+    cp "$BACKUP_PATH_XINIT/xinitrc" "$HOME/.xinitrc" || { echo "Error restoring xinitrc"; exit 1; }
     echo "Restoration completed."
 else
     echo "Error: xinit Backup folder not found ."
