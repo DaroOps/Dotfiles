@@ -138,7 +138,7 @@ APPS=(
 "xterm"
 "zathura"
 )
-FAILED_APPS =()
+FAILED_APPS=()
 
 if [ "$(id -u)" -ne 0 ]; then
   echo "Error: Este script debe ejecutarse con privilegios de administrador."
