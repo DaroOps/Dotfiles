@@ -218,7 +218,7 @@ done
 echo "Restoring backup files..."
 BACKUP_PATH="$HOME/Dotfiles/BackUp/"
 
-if [ -d "$BACKUP_PATH" ]; then
+if test -d "$BACKUP_PATH"; then
    echo "Restoring dotfiles from backup..."
     cp -r "$BACKUP_PATH"/* "$HOME/.config/"
     echo "Restoration completed."
@@ -231,7 +231,7 @@ fi
 echo "Restoring xinitrc file from backup..."
 BACKUP_PATH="$HOME/Dotfiles/xInit/"
 
-if [ -d "$BACKUP_PATH" ]; then
+if test -d "$BACKUP_PATH"; then
     cp "$BACKUP_PATH/xinitrc" "$HOME/.xinitrc" || { echo "Error restoring xinitrc"; exit 1; }
     echo "Restoration completed."
 else
