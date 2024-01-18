@@ -216,7 +216,7 @@ done
 
 # Restore Dotfiles
 echo "Restoring backup files..."
-SUDO_HOME="/home/$SUDO_USER/"
+SUDO_HOME="/home/$SUDO_USER"
 
 BACKUP_PATH="$SUDO_HOME/Dotfiles/BackUp"
 echo "The path for restore dotfiles are: $BACKUP_PATH"
