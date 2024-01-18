@@ -140,6 +140,9 @@ APPS=(
 )
 FAILED_APPS=()
 
+SUDO_HOME="/home/$SUDO_USER"
+
+
 if [ "$(id -u)" -ne 0 ]; then
   echo "Error: Este script debe ejecutarse con privilegios de administrador."
   exit 1
@@ -189,7 +192,7 @@ USER_DIRECTORIES=(
 NEED_XDG_UPDATE=false
 
 for DIR in "${USER_DIRECTORIES[@]}"; do
-  DIR_PATH="$HOME/$DIR"
+  DIR_PATH="$SUDO_HOME/$DIR"
   if [ ! -d "$DIR_PATH" ]; then
     NEED_XDG_UPDATE=true
     break
@@ -205,7 +208,7 @@ else
 fi
 
 for DIR in "${USER_DIRECTORIES[@]}"; do
-  DIR_PATH="$HOME/$DIR"
+  DIR_PATH="$SUDO_HOME/$DIR"
   if [ ! -d "$DIR_PATH" ]; then
     echo "$DIR directory is missing. Creating manually..."
     mkdir -p "$DIR_PATH"
@@ -216,7 +219,6 @@ done
 
 # Restore Dotfiles
 echo "Restoring backup files..."
-SUDO_HOME="/home/$SUDO_USER"
 
 BACKUP_PATH="$SUDO_HOME/Dotfiles/BackUp"
 echo "The path for restore dotfiles are: $BACKUP_PATH"
