@@ -154,7 +154,7 @@ if [ "$(id -u)" -ne 0 ]; then
   exit 1
 fi
 
-or APP in "${APPS[@]}"; do
+for APP in "${APPS[@]}"; do
   if ! command -v "$APP" &> /dev/null; then
     echo "Installing $APP..."
     sudo pacman -S --needed --noconfirm "$APP" || { echo "Error installing $APP"; FAILED_APPS+=("$APP"); }
