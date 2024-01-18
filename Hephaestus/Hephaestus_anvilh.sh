@@ -1,13 +1,13 @@
 #!/bin/bash
 
-echo "  
+echo '
   _   _            _                    _                     _ 
  | | | | ___ _ __ | |__   __ _  ___ ___| |_ _   _ ___  __   _/ |
  | |_| |/ _ | '_ \| '_ \ / _` |/ _ / __| __| | | / __| \ \ / | |
  |  _  |  __| |_) | | | | (_| |  __\__ | |_| |_| \__ \  \ V /| |
  |_| |_|\___| .__/|_| |_|\__,_|\___|___/\__|\__,_|___/   \_/ |_|
             |_|                                                 
-"
+'
 
 # List applications to install
 APPS=(
@@ -138,15 +138,30 @@ APPS=(
 "xterm"
 "zathura"
 )
+FAILED_APPS = ()
 
-for APP in "${APPS[@]}"; do
+if [ "$(id -u)" -ne 0 ]; then
+  echo "Error: Este script debe ejecutarse con privilegios de administrador."
+  exit 1
+fi
+
+or APP in "${APPS[@]}"; do
   if ! command -v "$APP" &> /dev/null; then
     echo "Installing $APP..."
-    sudo pacman -S --needed --noconfirm "$APP" || { echo "Error installing $APP"; exit 1; }
+    sudo pacman -S --needed --noconfirm "$APP" || { echo "Error installing $APP"; FAILED_APPS+=("$APP"); }
   else
     echo "$APP is already installed, skipping..."
   fi
 done
+
+if [ ${#FAILED_APPS[@]} -eq 0 ]; then
+  echo "All applications were installed successfully."
+else 
+  echo "The following applications failed to install:"
+  for FAILED_APP in "${FAILED_APPS[@]}"; do
+    echo "- $FAILED_APP"
+  done
+fi
 
 # Generate user dirs
 echo "Creating user directories..."
@@ -155,7 +170,10 @@ echo "Creating user directories..."
 USER_DIRECTORIES=(
   "Desktop"
   "Downloads"
-  # Add more directories as needed
+  "Pictures"
+  "Documents"
+  "Music"
+  "Videos"
 )
 
 for DIR in "${USER_DIRECTORIES[@]}"; do
@@ -170,19 +188,15 @@ done
 
 # Restore Dotfiles
 echo "Restoring backup files..."
-BACKUP_PATH="$HOME/Hephaestus/BackUp/"
+BACKUP_PATH="$HOME/Dotfiles/Hephaestus/BackUp/"
 
 if [ -d "$BACKUP_PATH" ]; then
-    cp -r "$BACKUP_PATH"/* "$HOME/.config/" || { echo "Error restoring backup files"; exit 1; }
-    echo "Restoration completed."
-else
-    echo "Error: Backup folder not found."
-    exit 1
+    cp -r "$BACKUP_PATH"/* "$HOME/.config/" && echo "Restoration completed." || { echo "Error restoring backup files"; exit 1; }
 fi
 
 # Restore xinitrc
 echo "Restoring xinitrc file from backup..."
-BACKUP_PATH="$HOME/Hephaestus/xInit/"
+BACKUP_PATH="$HOME/Dotfiles/Hephaestus/xInit/"
 
 if [ -d "$BACKUP_PATH" ]; then
     cp "$BACKUP_PATH/xinitrc" "$HOME/.xinitrc" || { echo "Error restoring xinitrc"; exit 1; }
