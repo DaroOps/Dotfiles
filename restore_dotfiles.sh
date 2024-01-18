@@ -218,9 +218,9 @@ done
 echo "Restoring backup files..."
 BACKUP_PATH="$HOME/Dotfiles/BackUp/"
 
-if [ -d "$ruta_respaldo" ]; then
+if [ -d "$BACKUP_PATH" ]; then
    echo "Restoring dotfiles from backup..."
-    cp -r "$ruta_respaldo"/* "$HOME/.config/"
+    cp -r "$BACKUP_PATH"/* "$HOME/.config/"
     echo "Restoration completed."
 else
     echo "Error: Dotfiles Backup folder not found."
