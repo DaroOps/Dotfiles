@@ -216,12 +216,14 @@ done
 
 # Restore Dotfiles
 echo "Restoring backup files..."
-BACKUP_PATH="/home/$SUDO_USER/Dotfiles/BackUp"
+SUDO_HOME="/home/$SUDO_USER/"
+
+BACKUP_PATH="$SUDO_HOME/Dotfiles/BackUp"
 echo "The path for restore dotfiles are: $BACKUP_PATH"
 
 if [ -d "$BACKUP_PATH" ]; then
     echo "Restoring dotfiles from backup..."
-    cp -r "$BACKUP_PATH"/* "$HOME/.config/"
+    cp -r "$BACKUP_PATH"/* "$SUDO_HOME/.config/"
     echo "Restoration completed."
 else
     echo "Error: Dotfiles Backup folder not found."
@@ -230,10 +232,10 @@ fi
 
 # Restore xinitrcxinitrc
 echo "Restoring xinitrc file from backup..."
-BACKUP_PATH_XINIT="/home/$SUDO_USER/Dotfiles/xInit"
+BACKUP_PATH_XINIT="$SUDO_HOME/Dotfiles/xInit"
 
 if [ -d "$BACKUP_PATH_XINIT" ]; then
-    cp "$BACKUP_PATH_XINIT/xinitrc" "$HOME/.xinitrc" || { echo "Error restoring xinitrc"; exit 1; }
+    cp "$BACKUP_PATH_XINIT/xinitrc" "$SUDO_HOME/.xinitrc" || { echo "Error restoring xinitrc"; exit 1; }
     echo "Restoration completed."
 else
     echo "Error: xinit Backup folder not found ."
