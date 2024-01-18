@@ -216,15 +216,15 @@ done
 
 # Restore Dotfiles
 echo "Restoring backup files..."
-BACKUP_PATH="$HOME/Dotfiles/Hephaestus/BackUp/"
+BACKUP_PATH="$HOME/Dotfiles/BackUp/"
 
 if [ -d "$BACKUP_PATH" ]; then
     cp -r "$BACKUP_PATH"/* "$HOME/.config/" && echo "Restoration completed." || { echo "Error restoring backup files"; exit 1; }
 fi
 
-# Restore xinitrc
+# Restore xinitrcxinitrc
 echo "Restoring xinitrc file from backup..."
-BACKUP_PATH="$HOME/Dotfiles/Hephaestus/xInit/"
+BACKUP_PATH="$HOME/Dotfiles/xInit/"
 
 if [ -d "$BACKUP_PATH" ]; then
     cp "$BACKUP_PATH/xinitrc" "$HOME/.xinitrc" || { echo "Error restoring xinitrc"; exit 1; }
