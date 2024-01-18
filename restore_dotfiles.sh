@@ -218,8 +218,13 @@ done
 echo "Restoring backup files..."
 BACKUP_PATH="$HOME/Dotfiles/BackUp/"
 
-if [ -d "$BACKUP_PATH" ]; then
-    cp -r "$BACKUP_PATH"/* "$HOME/.config/" && echo "Restoration completed." || { echo "Error restoring backup files"; exit 1; }
+if [ -d "$ruta_respaldo" ]; then
+   echo "Restoring dotfiles from backup..."
+    cp -r "$ruta_respaldo"/* "$HOME/.config/"
+    echo "Restoration completed."
+else
+    echo "Error: Dotfiles Backup folder not found."
+    exit 1
 fi
 
 # Restore xinitrcxinitrc
@@ -230,7 +235,7 @@ if [ -d "$BACKUP_PATH" ]; then
     cp "$BACKUP_PATH/xinitrc" "$HOME/.xinitrc" || { echo "Error restoring xinitrc"; exit 1; }
     echo "Restoration completed."
 else
-    echo "Error: Backup folder not found."
+    echo "Error: xinit Backup folder not found ."
     exit 1
 fi
 
