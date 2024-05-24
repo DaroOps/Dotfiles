@@ -1,7 +1,0 @@
-2024/05/23-10:23:07.717 386b4 Reusing MANIFEST /home/daro_ops/.config/Termius/Local Storage/leveldb/MANIFEST-000001
-2024/05/23-10:23:07.718 386b4 Recovering log #64
-2024/05/23-10:23:07.718 386b4 Level-0 table #67: started
-2024/05/23-10:23:07.821 386b4 Level-0 table #67: 37087 bytes OK
-2024/05/23-10:23:07.821 386b4 Recovering log #67
-2024/05/23-10:23:07.821 386b4 Reusing old log /home/daro_ops/.config/Termius/Local Storage/leveldb/000067.log 
-2024/05/23-10:23:07.867 386b4 Delete type=0 #64
