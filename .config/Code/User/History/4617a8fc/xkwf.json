@@ -1,0 +1,8 @@
+{
+    "workbench.colorTheme": "Wal",
+    "window.menuBarVisibility": "toggle",
+    "files.autoSave": "afterDelay",
+    "terminal.integrated.fontFamily": "FiraCode Nerd Font",
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'Iosevka','Droid Sans Mono', 'monospace', monospace"
+}

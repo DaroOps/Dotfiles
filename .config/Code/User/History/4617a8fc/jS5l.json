@@ -1,0 +1,6 @@
+{
+    "workbench.colorTheme": "Wal",
+    "window.menuBarVisibility": "toggle",
+    "files.autoSave": "afterDelay",
+    "terminal.integrated.fontFamily": "FiraCode Nerd Font"
+}

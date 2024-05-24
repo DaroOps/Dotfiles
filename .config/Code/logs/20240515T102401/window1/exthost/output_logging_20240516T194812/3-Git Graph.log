@@ -1,0 +1,465 @@
+[2024-05-16 19:48:12.561] Starting Git Graph ...
+[2024-05-16 19:48:12.598] Using git (version: 2.45.1)
+[2024-05-16 19:48:12.614] > git rev-parse --show-toplevel
+[2024-05-16 19:48:12.614] Showing "Git Graph" Status Bar Item
+[2024-05-16 19:48:12.616] Started Git Graph - Ready to use!
+[2024-05-16 19:48:12.697] Successfully set Visual Studio Code Context "git-graph:codiconsSupported" to "true"
+[2024-05-16 19:48:12.773] Searching workspace for new repos ...
+[2024-05-16 19:48:12.773] Completed searching workspace for new repos
+[2024-05-18 16:47:43.188] Created Git Graph View (active repo: /home/daro_ops/Documents/campus/proyectoJavascript)
+[2024-05-18 16:47:44.786] > git branch -a --no-color
+[2024-05-18 16:47:44.794] > git remote
+[2024-05-18 16:47:44.801] > git reflog --format=... refs/stash --
+[2024-05-18 16:47:44.867] Started watching repo: /home/daro_ops/Documents/campus/proyectoJavascript
+[2024-05-18 16:47:44.879] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2024-05-18 16:47:44.887] > git show-ref -d --head
+[2024-05-18 16:47:45.243] > git status --untracked-files=all --porcelain
+[2024-05-18 16:47:45.297] > git --no-pager config --list -z --includes
+[2024-05-18 16:47:45.303] > git --no-pager config --list -z --includes --local
+[2024-05-18 16:47:45.308] > git --no-pager config --list -z --includes --global
+[2024-05-18 16:47:58.105] > git stash push --include-untracked --message test
+[2024-05-18 16:47:58.363] > git branch -a --no-color
+[2024-05-18 16:47:58.377] > git remote
+[2024-05-18 16:47:58.388] > git reflog --format=... refs/stash --
+[2024-05-18 16:47:58.417] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes 02d7de3cc8ca64927e6e4c0a93a336e9b98293e2 HEAD --
+[2024-05-18 16:47:58.429] > git show-ref -d --head
+[2024-05-18 16:47:58.445] > git status --untracked-files=all --porcelain
+[2024-05-18 16:48:26.234] > git branch -a --no-color
+[2024-05-18 16:48:26.252] > git remote
+[2024-05-18 16:48:26.272] > git reflog --format=... refs/stash --
+[2024-05-18 16:48:26.309] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes 02d7de3cc8ca64927e6e4c0a93a336e9b98293e2 HEAD --
+[2024-05-18 16:48:26.326] > git show-ref -d --head
+[2024-05-18 16:48:26.338] > git status --untracked-files=all --porcelain
+[2024-05-18 16:48:30.848] > git stash apply refs/stash@{0}
+[2024-05-18 16:48:30.922] > git branch -a --no-color
+[2024-05-18 16:48:30.930] > git remote
+[2024-05-18 16:48:30.941] > git reflog --format=... refs/stash --
+[2024-05-18 16:48:30.957] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes 02d7de3cc8ca64927e6e4c0a93a336e9b98293e2 HEAD --
+[2024-05-18 16:48:30.971] > git show-ref -d --head
+[2024-05-18 16:48:30.987] > git status --untracked-files=all --porcelain
+[2024-05-18 16:48:44.443] > git stash drop refs/stash@{0}
+[2024-05-18 16:48:44.456] > git branch -a --no-color
+[2024-05-18 16:48:44.463] > git remote
+[2024-05-18 16:48:44.471] > git reflog --format=... refs/stash --
+[2024-05-18 16:48:44.484] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2024-05-18 16:48:44.492] > git show-ref -d --head
+[2024-05-18 16:48:44.503] > git status --untracked-files=all --porcelain
+[2024-05-18 16:48:57.502] Stopped watching repo: /home/daro_ops/Documents/campus/proyectoJavascript
+[2024-05-18 16:48:58.573] > git branch -a --no-color
+[2024-05-18 16:48:58.580] > git remote
+[2024-05-18 16:48:58.586] > git reflog --format=... refs/stash --
+[2024-05-18 16:48:58.588] Started watching repo: /home/daro_ops/Documents/campus/proyectoJavascript
+[2024-05-18 16:48:58.595] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2024-05-18 16:48:58.601] > git show-ref -d --head
+[2024-05-18 16:48:58.611] > git status --untracked-files=all --porcelain
+[2024-05-18 16:49:00.960] Stopped watching repo: /home/daro_ops/Documents/campus/proyectoJavascript
+[2024-05-18 16:59:24.493] > git branch -a --no-color
+[2024-05-18 16:59:24.502] > git remote
+[2024-05-18 16:59:24.511] > git reflog --format=... refs/stash --
+[2024-05-18 16:59:24.515] Started watching repo: /home/daro_ops/Documents/campus/proyectoJavascript
+[2024-05-18 16:59:24.529] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2024-05-18 16:59:24.540] > git show-ref -d --head
+[2024-05-18 16:59:24.553] > git status --untracked-files=all --porcelain
+[2024-05-18 16:59:28.067] > git -c log.showSignature=false log --max-count=301 --format=... --date-order test --
+[2024-05-18 16:59:28.084] > git show-ref -d --head
+[2024-05-18 16:59:28.109] > git status --untracked-files=all --porcelain
+[2024-05-18 16:59:32.283] > git branch --no-color
+[2024-05-18 16:59:32.294] > git remote
+[2024-05-18 16:59:32.306] > git reflog --format=... refs/stash --
+[2024-05-18 16:59:32.325] > git -c log.showSignature=false log --max-count=301 --format=... --date-order test --
+[2024-05-18 16:59:32.338] > git show-ref --heads --tags -d --head
+[2024-05-18 16:59:32.355] > git status --untracked-files=all --porcelain
+[2024-05-18 16:59:33.183] > git branch -a --no-color
+[2024-05-18 16:59:33.191] > git remote
+[2024-05-18 16:59:33.201] > git reflog --format=... refs/stash --
+[2024-05-18 16:59:33.217] > git -c log.showSignature=false log --max-count=301 --format=... --date-order test --
+[2024-05-18 16:59:33.226] > git show-ref -d --head
+[2024-05-18 16:59:33.238] > git status --untracked-files=all --porcelain
+[2024-05-18 16:59:36.824] > git -c log.showSignature=false show --quiet 02d7de3cc8ca64927e6e4c0a93a336e9b98293e2 --format=...
+[2024-05-18 16:59:36.835] > git diff --name-status --find-renames --diff-filter=AMDR -z 02d7de3cc8ca64927e6e4c0a93a336e9b98293e2^ 02d7de3cc8ca64927e6e4c0a93a336e9b98293e2
+[2024-05-18 16:59:36.848] > git diff --numstat --find-renames --diff-filter=AMDR -z 02d7de3cc8ca64927e6e4c0a93a336e9b98293e2^ 02d7de3cc8ca64927e6e4c0a93a336e9b98293e2
+[2024-05-18 16:59:41.229] > git revert --no-edit 02d7de3cc8ca64927e6e4c0a93a336e9b98293e2
+[2024-05-18 16:59:46.427] Stopped watching repo: /home/daro_ops/Documents/campus/proyectoJavascript
+[2024-05-18 16:59:57.499] > git branch -a --no-color
+[2024-05-18 16:59:57.506] > git remote
+[2024-05-18 16:59:57.512] > git reflog --format=... refs/stash --
+[2024-05-18 16:59:57.514] Started watching repo: /home/daro_ops/Documents/campus/proyectoJavascript
+[2024-05-18 16:59:57.524] > git -c log.showSignature=false log --max-count=301 --format=... --date-order test --
+[2024-05-18 16:59:57.529] > git show-ref -d --head
+[2024-05-18 16:59:57.537] > git status --untracked-files=all --porcelain
+[2024-05-18 17:00:07.861] > git reset --hard HEAD
+[2024-05-18 17:00:07.926] > git branch -a --no-color
+[2024-05-18 17:00:07.933] > git remote
+[2024-05-18 17:00:07.942] > git reflog --format=... refs/stash --
+[2024-05-18 17:00:07.994] > git -c log.showSignature=false log --max-count=301 --format=... --date-order test --
+[2024-05-18 17:00:08.005] > git show-ref -d --head
+[2024-05-18 17:00:08.020] > git status --untracked-files=all --porcelain
+[2024-05-18 17:00:15.183] > git revert --no-edit 02d7de3cc8ca64927e6e4c0a93a336e9b98293e2
+[2024-05-18 17:00:27.601] Stopped watching repo: /home/daro_ops/Documents/campus/proyectoJavascript
+[2024-05-18 17:00:29.800] > git branch -a --no-color
+[2024-05-18 17:00:29.807] > git remote
+[2024-05-18 17:00:29.816] > git reflog --format=... refs/stash --
+[2024-05-18 17:00:29.819] Started watching repo: /home/daro_ops/Documents/campus/proyectoJavascript
+[2024-05-18 17:00:29.828] > git -c log.showSignature=false log --max-count=301 --format=... --date-order test --
+[2024-05-18 17:00:29.836] > git show-ref -d --head
+[2024-05-18 17:00:29.845] > git status --untracked-files=all --porcelain
+[2024-05-18 17:00:36.508] > git reset --mixed HEAD
+[2024-05-18 17:00:36.578] > git branch -a --no-color
+[2024-05-18 17:00:36.595] > git remote
+[2024-05-18 17:00:36.611] > git reflog --format=... refs/stash --
+[2024-05-18 17:00:36.645] > git -c log.showSignature=false log --max-count=301 --format=... --date-order test --
+[2024-05-18 17:00:36.656] > git show-ref -d --head
+[2024-05-18 17:00:36.674] > git status --untracked-files=all --porcelain
+[2024-05-18 17:00:44.532] > git reset --hard HEAD
+[2024-05-18 17:00:44.624] > git branch -a --no-color
+[2024-05-18 17:00:44.634] > git remote
+[2024-05-18 17:00:44.644] > git reflog --format=... refs/stash --
+[2024-05-18 17:00:44.667] > git -c log.showSignature=false log --max-count=301 --format=... --date-order test --
+[2024-05-18 17:00:44.677] > git show-ref -d --head
+[2024-05-18 17:00:44.690] > git status --untracked-files=all --porcelain
+[2024-05-18 17:00:56.032] > git rebase --onto e1e7d9c4bfd2b5ebc5eb428b0d5ed312224973ae^ e1e7d9c4bfd2b5ebc5eb428b0d5ed312224973ae
+[2024-05-18 17:00:56.139] > git branch -a --no-color
+[2024-05-18 17:00:56.147] > git remote
+[2024-05-18 17:00:56.156] > git reflog --format=... refs/stash --
+[2024-05-18 17:00:56.173] > git -c log.showSignature=false log --max-count=301 --format=... --date-order test --
+[2024-05-18 17:00:56.184] > git show-ref -d --head
+[2024-05-18 17:00:56.195] > git status --untracked-files=all --porcelain
+[2024-05-18 17:01:07.373] > git rebase --onto 782aacfdad0380555351e671e1bfa316332375b7^ 782aacfdad0380555351e671e1bfa316332375b7
+[2024-05-18 17:01:07.489] > git branch -a --no-color
+[2024-05-18 17:01:07.496] > git remote
+[2024-05-18 17:01:07.504] > git reflog --format=... refs/stash --
+[2024-05-18 17:01:07.520] > git -c log.showSignature=false log --max-count=301 --format=... --date-order test --
+[2024-05-18 17:01:07.530] > git show-ref -d --head
+[2024-05-18 17:01:07.543] > git status --untracked-files=all --porcelain
+[2024-05-18 17:01:17.412] Stopped watching repo: /home/daro_ops/Documents/campus/proyectoJavascript
+[2024-05-18 17:37:22.842] > git branch -a --no-color
+[2024-05-18 17:37:22.847] > git remote
+[2024-05-18 17:37:22.853] > git reflog --format=... refs/stash --
+[2024-05-18 17:37:22.855] Started watching repo: /home/daro_ops/Documents/campus/proyectoJavascript
+[2024-05-18 17:37:22.869] > git -c log.showSignature=false log --max-count=301 --format=... --date-order test --
+[2024-05-18 17:37:22.878] > git show-ref -d --head
+[2024-05-18 17:37:22.893] > git status --untracked-files=all --porcelain
+[2024-05-18 17:37:30.184] > git checkout main
+[2024-05-18 17:37:30.253] > git branch -a --no-color
+[2024-05-18 17:37:30.260] > git remote
+[2024-05-18 17:37:30.270] > git reflog --format=... refs/stash --
+[2024-05-18 17:37:30.295] > git -c log.showSignature=false log --max-count=301 --format=... --date-order test --
+[2024-05-18 17:37:30.301] > git show-ref -d --head
+[2024-05-18 17:37:30.313] > git status --untracked-files=all --porcelain
+[2024-05-18 17:37:32.264] Stopped watching repo: /home/daro_ops/Documents/campus/proyectoJavascript
+[2024-05-18 17:37:48.894] > git branch -a --no-color
+[2024-05-18 17:37:48.900] > git remote
+[2024-05-18 17:37:48.909] > git reflog --format=... refs/stash --
+[2024-05-18 17:37:48.912] Started watching repo: /home/daro_ops/Documents/campus/proyectoJavascript
+[2024-05-18 17:37:48.923] > git -c log.showSignature=false log --max-count=301 --format=... --date-order test --
+[2024-05-18 17:37:48.931] > git show-ref -d --head
+[2024-05-18 17:37:48.938] > git status --untracked-files=all --porcelain
+[2024-05-18 17:37:50.413] > git checkout test
+[2024-05-18 17:37:50.461] > git branch -a --no-color
+[2024-05-18 17:37:50.479] > git remote
+[2024-05-18 17:37:50.500] > git reflog --format=... refs/stash --
+[2024-05-18 17:37:50.554] > git -c log.showSignature=false log --max-count=301 --format=... --date-order test --
+[2024-05-18 17:37:50.573] > git show-ref -d --head
+[2024-05-18 17:37:50.597] > git status --untracked-files=all --porcelain
+[2024-05-18 17:37:57.307] Stopped watching repo: /home/daro_ops/Documents/campus/proyectoJavascript
+[2024-05-18 17:50:14.122] > git branch -a --no-color
+[2024-05-18 17:50:14.127] > git remote
+[2024-05-18 17:50:14.133] > git reflog --format=... refs/stash --
+[2024-05-18 17:50:14.134] Started watching repo: /home/daro_ops/Documents/campus/proyectoJavascript
+[2024-05-18 17:50:14.146] > git -c log.showSignature=false log --max-count=301 --format=... --date-order test --
+[2024-05-18 17:50:14.153] > git show-ref -d --head
+[2024-05-18 17:50:14.162] > git status --untracked-files=all --porcelain
+[2024-05-18 17:50:16.263] > git checkout main
+[2024-05-18 17:50:22.573] > git clean -fd
+[2024-05-18 17:50:22.585] > git branch -a --no-color
+[2024-05-18 17:50:22.591] > git remote
+[2024-05-18 17:50:22.598] > git reflog --format=... refs/stash --
+[2024-05-18 17:50:22.611] > git -c log.showSignature=false log --max-count=301 --format=... --date-order test --
+[2024-05-18 17:50:22.620] > git show-ref -d --head
+[2024-05-18 17:50:22.629] > git status --untracked-files=all --porcelain
+[2024-05-18 17:50:27.915] > git reset --mixed HEAD
+[2024-05-18 17:50:27.936] > git branch -a --no-color
+[2024-05-18 17:50:27.948] > git remote
+[2024-05-18 17:50:27.958] > git reflog --format=... refs/stash --
+[2024-05-18 17:50:27.973] > git -c log.showSignature=false log --max-count=301 --format=... --date-order test --
+[2024-05-18 17:50:27.984] > git show-ref -d --head
+[2024-05-18 17:50:27.997] > git status --untracked-files=all --porcelain
+[2024-05-18 17:50:31.461] > git checkout main
+[2024-05-18 17:54:12.426] > git -c log.showSignature=false show --quiet 782aacfdad0380555351e671e1bfa316332375b7 --format=...
+[2024-05-18 17:54:12.433] > git diff --name-status --find-renames --diff-filter=AMDR -z 782aacfdad0380555351e671e1bfa316332375b7^ 782aacfdad0380555351e671e1bfa316332375b7
+[2024-05-18 17:54:12.441] > git diff --numstat --find-renames --diff-filter=AMDR -z 782aacfdad0380555351e671e1bfa316332375b7^ 782aacfdad0380555351e671e1bfa316332375b7
+[2024-05-18 17:54:18.035] > git reset --hard HEAD
+[2024-05-18 17:54:18.046] > git branch -a --no-color
+[2024-05-18 17:54:18.054] > git remote
+[2024-05-18 17:54:18.059] > git reflog --format=... refs/stash --
+[2024-05-18 17:54:18.072] > git -c log.showSignature=false log --max-count=301 --format=... --date-order test --
+[2024-05-18 17:54:18.079] > git show-ref -d --head
+[2024-05-18 17:54:18.090] > git status --untracked-files=all --porcelain
+[2024-05-18 17:54:21.564] > git checkout main
+[2024-05-18 17:54:21.582] > git branch -a --no-color
+[2024-05-18 17:54:21.589] > git remote
+[2024-05-18 17:54:21.596] > git reflog --format=... refs/stash --
+[2024-05-18 17:54:21.611] > git -c log.showSignature=false log --max-count=301 --format=... --date-order test --
+[2024-05-18 17:54:21.619] > git show-ref -d --head
+[2024-05-18 17:54:21.629] > git status --untracked-files=all --porcelain
+[2024-05-18 17:54:26.012] > git -c log.showSignature=false show --quiet 02d7de3cc8ca64927e6e4c0a93a336e9b98293e2 --format=...
+[2024-05-18 17:54:26.034] > git diff --name-status --find-renames --diff-filter=AMDR -z 02d7de3cc8ca64927e6e4c0a93a336e9b98293e2^ 02d7de3cc8ca64927e6e4c0a93a336e9b98293e2
+[2024-05-18 17:54:26.049] > git diff --numstat --find-renames --diff-filter=AMDR -z 02d7de3cc8ca64927e6e4c0a93a336e9b98293e2^ 02d7de3cc8ca64927e6e4c0a93a336e9b98293e2
+[2024-05-18 17:54:27.705] > git -c log.showSignature=false show --quiet 02d7de3cc8ca64927e6e4c0a93a336e9b98293e2 --format=...
+[2024-05-18 17:54:27.725] > git diff --name-status --find-renames --diff-filter=AMDR -z 02d7de3cc8ca64927e6e4c0a93a336e9b98293e2^ 02d7de3cc8ca64927e6e4c0a93a336e9b98293e2
+[2024-05-18 17:54:27.742] > git diff --numstat --find-renames --diff-filter=AMDR -z 02d7de3cc8ca64927e6e4c0a93a336e9b98293e2^ 02d7de3cc8ca64927e6e4c0a93a336e9b98293e2
+[2024-05-18 17:54:28.663] > git checkout main
+[2024-05-18 17:54:28.679] > git branch -a --no-color
+[2024-05-18 17:54:28.688] > git remote
+[2024-05-18 17:54:28.699] > git reflog --format=... refs/stash --
+[2024-05-18 17:54:28.712] > git -c log.showSignature=false log --max-count=301 --format=... --date-order test --
+[2024-05-18 17:54:28.719] > git show-ref -d --head
+[2024-05-18 17:54:28.729] > git status --untracked-files=all --porcelain
+[2024-05-18 17:54:36.566] > git branch --delete --force test
+[2024-05-18 17:54:36.581] > git branch -a --no-color
+[2024-05-18 17:54:36.589] > git remote
+[2024-05-18 17:54:36.596] > git reflog --format=... refs/stash --
+[2024-05-18 17:54:36.612] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2024-05-18 17:54:36.620] > git show-ref -d --head
+[2024-05-18 17:54:36.632] > git status --untracked-files=all --porcelain
+[2024-05-18 17:55:00.019] Stopped watching repo: /home/daro_ops/Documents/campus/proyectoJavascript
+[2024-05-18 19:12:40.042] > git branch -a --no-color
+[2024-05-18 19:12:40.056] > git remote
+[2024-05-18 19:12:40.065] > git reflog --format=... refs/stash --
+[2024-05-18 19:12:40.070] Started watching repo: /home/daro_ops/Documents/campus/proyectoJavascript
+[2024-05-18 19:12:40.092] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2024-05-18 19:12:40.101] > git show-ref -d --head
+[2024-05-18 19:12:40.118] > git status --untracked-files=all --porcelain
+[2024-05-18 19:13:08.006] > git branch -a --no-color
+[2024-05-18 19:13:08.019] > git remote
+[2024-05-18 19:13:08.030] > git reflog --format=... refs/stash --
+[2024-05-18 19:13:08.051] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2024-05-18 19:13:08.068] > git show-ref -d --head
+[2024-05-18 19:13:08.087] > git status --untracked-files=all --porcelain
+[2024-05-18 19:13:29.200] > git fetch --all
+[2024-05-18 19:13:29.669] > git branch -a --no-color
+[2024-05-18 19:13:29.684] > git remote
+[2024-05-18 19:13:29.697] > git reflog --format=... refs/stash --
+[2024-05-18 19:13:29.718] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2024-05-18 19:13:29.732] > git show-ref -d --head
+[2024-05-18 19:13:29.749] > git status --untracked-files=all --porcelain
+[2024-05-18 19:13:52.913] > git push origin --delete test
+[2024-05-18 19:14:10.988] > git -c log.showSignature=false show --quiet 9023c31f8890551e0f46276e0ec0dbf0dc81a46e --format=...
+[2024-05-18 19:14:10.998] > git diff --name-status --find-renames --diff-filter=AMDR -z 9023c31f8890551e0f46276e0ec0dbf0dc81a46e^ 9023c31f8890551e0f46276e0ec0dbf0dc81a46e
+[2024-05-18 19:14:11.006] > git diff --numstat --find-renames --diff-filter=AMDR -z 9023c31f8890551e0f46276e0ec0dbf0dc81a46e^ 9023c31f8890551e0f46276e0ec0dbf0dc81a46e
+[2024-05-18 19:15:55.452] Stopped watching repo: /home/daro_ops/Documents/campus/proyectoJavascript
+[2024-05-18 19:16:08.552] > git branch -a --no-color
+[2024-05-18 19:16:08.559] > git remote
+[2024-05-18 19:16:08.568] > git reflog --format=... refs/stash --
+[2024-05-18 19:16:08.570] Started watching repo: /home/daro_ops/Documents/campus/proyectoJavascript
+[2024-05-18 19:16:08.586] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2024-05-18 19:16:08.596] > git show-ref -d --head
+[2024-05-18 19:16:08.614] > git status --untracked-files=all --porcelain
+[2024-05-18 19:16:41.203] > git branch -a --no-color
+[2024-05-18 19:16:41.213] > git remote
+[2024-05-18 19:16:41.223] > git reflog --format=... refs/stash --
+[2024-05-18 19:16:41.240] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2024-05-18 19:16:41.251] > git show-ref -d --head
+[2024-05-18 19:16:41.266] > git status --untracked-files=all --porcelain
+[2024-05-18 19:16:45.084] > git branch -a --no-color
+[2024-05-18 19:16:45.102] > git remote
+[2024-05-18 19:16:45.120] > git reflog --format=... refs/stash --
+[2024-05-18 19:16:45.152] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2024-05-18 19:16:45.165] > git show-ref -d --head
+[2024-05-18 19:16:45.182] > git status --untracked-files=all --porcelain
+[2024-05-18 19:16:45.267] > git --no-pager config --list -z --includes
+[2024-05-18 19:16:45.280] > git --no-pager config --list -z --includes --local
+[2024-05-18 19:16:45.288] > git --no-pager config --list -z --includes --global
+[2024-05-18 19:16:46.496] > git branch -a --no-color
+[2024-05-18 19:16:46.512] > git remote
+[2024-05-18 19:16:46.526] > git reflog --format=... refs/stash --
+[2024-05-18 19:16:46.590] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2024-05-18 19:16:46.599] > git show-ref -d --head
+[2024-05-18 19:16:46.617] > git status --untracked-files=all --porcelain
+[2024-05-18 19:16:46.698] > git --no-pager config --list -z --includes
+[2024-05-18 19:16:46.710] > git --no-pager config --list -z --includes --local
+[2024-05-18 19:16:46.721] > git --no-pager config --list -z --includes --global
+[2024-05-18 19:19:50.498] > git branch -a --no-color
+[2024-05-18 19:19:50.516] > git remote
+[2024-05-18 19:19:50.540] > git reflog --format=... refs/stash --
+[2024-05-18 19:19:50.566] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2024-05-18 19:19:50.579] > git show-ref -d --head
+[2024-05-18 19:19:50.595] > git status --untracked-files=all --porcelain
+[2024-05-18 19:19:53.641] > git branch -a --no-color
+[2024-05-18 19:19:53.657] > git remote
+[2024-05-18 19:19:53.674] > git reflog --format=... refs/stash --
+[2024-05-18 19:19:53.704] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2024-05-18 19:19:53.726] > git show-ref -d --head
+[2024-05-18 19:19:53.746] > git status --untracked-files=all --porcelain
+[2024-05-18 19:19:57.555] > git branch -a --no-color
+[2024-05-18 19:19:57.574] > git remote
+[2024-05-18 19:19:57.595] > git reflog --format=... refs/stash --
+[2024-05-18 19:19:57.621] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2024-05-18 19:19:57.641] > git show-ref -d --head
+[2024-05-18 19:19:57.664] > git status --untracked-files=all --porcelain
+[2024-05-18 19:20:29.158] Removed repo: /home/daro_ops/Documents/campus/proyectoJavascript
+[2024-05-18 19:20:29.158] Hiding "Git Graph" Status Bar Item
+[2024-05-18 19:21:07.630] Searching workspace for new repos ...
+[2024-05-18 19:21:07.649] > git rev-parse --show-toplevel
+[2024-05-18 19:21:07.655] Added new repo: /home/daro_ops/Documents/campus/proyectoJavascript
+[2024-05-18 19:21:07.661] Completed searching workspace for new repos
+[2024-05-18 19:21:07.661] Showing "Git Graph" Status Bar Item
+[2024-05-18 19:21:07.902] > git branch -a --no-color
+[2024-05-18 19:21:07.910] > git remote
+[2024-05-18 19:21:07.923] > git reflog --format=... refs/stash --
+[2024-05-18 19:21:07.942] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2024-05-18 19:21:07.950] > git show-ref -d --head
+[2024-05-18 19:21:07.965] > git status --untracked-files=all --porcelain
+[2024-05-18 19:22:43.371] > git branch -a --no-color
+[2024-05-18 19:22:43.379] > git remote
+[2024-05-18 19:22:43.387] > git reflog --format=... refs/stash --
+[2024-05-18 19:22:43.397] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2024-05-18 19:22:43.404] > git show-ref -d --head
+[2024-05-18 19:22:43.411] > git status --untracked-files=all --porcelain
+[2024-05-18 19:24:33.026] > git branch -a --no-color
+[2024-05-18 19:24:33.035] > git remote
+[2024-05-18 19:24:33.042] > git reflog --format=... refs/stash --
+[2024-05-18 19:24:33.057] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2024-05-18 19:24:33.062] > git show-ref -d --head
+[2024-05-18 19:24:33.072] > git status --untracked-files=all --porcelain
+[2024-05-18 19:24:57.412] > git branch -a --no-color
+[2024-05-18 19:24:57.439] > git remote
+[2024-05-18 19:24:57.459] > git reflog --format=... refs/stash --
+[2024-05-18 19:24:57.484] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2024-05-18 19:24:57.498] > git show-ref -d --head
+[2024-05-18 19:24:57.512] > git status --untracked-files=all --porcelain
+[2024-05-18 19:25:59.538] Stopped watching repo: /home/daro_ops/Documents/campus/proyectoJavascript
+[2024-05-18 19:26:50.403] > git branch -a --no-color
+[2024-05-18 19:26:50.413] > git remote
+[2024-05-18 19:26:50.421] > git reflog --format=... refs/stash --
+[2024-05-18 19:26:50.424] Started watching repo: /home/daro_ops/Documents/campus/proyectoJavascript
+[2024-05-18 19:26:50.436] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2024-05-18 19:26:50.448] > git show-ref -d --head
+[2024-05-18 19:26:50.463] > git status --untracked-files=all --porcelain
+[2024-05-18 19:26:52.445] > git -c log.showSignature=false show --quiet 0b8e6ef2531c737aacabe959f30d84523b3258c2 --format=...
+[2024-05-18 19:26:52.467] > git diff --name-status --find-renames --diff-filter=AMDR -z 0b8e6ef2531c737aacabe959f30d84523b3258c2^ 0b8e6ef2531c737aacabe959f30d84523b3258c2
+[2024-05-18 19:26:52.489] > git diff --numstat --find-renames --diff-filter=AMDR -z 0b8e6ef2531c737aacabe959f30d84523b3258c2^ 0b8e6ef2531c737aacabe959f30d84523b3258c2
+[2024-05-18 19:26:54.600] > git show 0b8e6ef2531c737aacabe959f30d84523b3258c2^:js/components/musicPlayer/musicPlayer.js
+[2024-05-18 19:26:54.605] > git show 0b8e6ef2531c737aacabe959f30d84523b3258c2:js/components/musicPlayer/musicPlayer.js
+[2024-05-18 19:26:54.886] Stopped watching repo: /home/daro_ops/Documents/campus/proyectoJavascript
+[2024-05-18 19:27:03.910] > git branch -a --no-color
+[2024-05-18 19:27:03.916] > git remote
+[2024-05-18 19:27:03.923] > git reflog --format=... refs/stash --
+[2024-05-18 19:27:03.925] Started watching repo: /home/daro_ops/Documents/campus/proyectoJavascript
+[2024-05-18 19:27:03.936] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2024-05-18 19:27:03.946] > git show-ref -d --head
+[2024-05-18 19:27:03.956] > git status --untracked-files=all --porcelain
+[2024-05-18 19:27:52.691] > git diff --name-status --find-renames --diff-filter=AMDR -z HEAD
+[2024-05-18 19:27:52.718] > git diff --numstat --find-renames --diff-filter=AMDR -z HEAD
+[2024-05-18 19:27:52.738] > git status -s --untracked-files=all --porcelain -z
+[2024-05-18 19:27:55.380] > git -c log.showSignature=false show --quiet 0b8e6ef2531c737aacabe959f30d84523b3258c2 --format=...
+[2024-05-18 19:27:55.399] > git diff --name-status --find-renames --diff-filter=AMDR -z 0b8e6ef2531c737aacabe959f30d84523b3258c2^ 0b8e6ef2531c737aacabe959f30d84523b3258c2
+[2024-05-18 19:27:55.416] > git diff --numstat --find-renames --diff-filter=AMDR -z 0b8e6ef2531c737aacabe959f30d84523b3258c2^ 0b8e6ef2531c737aacabe959f30d84523b3258c2
+[2024-05-18 19:27:57.124] > git diff --name-status --find-renames --diff-filter=AMDR -z HEAD
+[2024-05-18 19:27:57.148] > git diff --numstat --find-renames --diff-filter=AMDR -z HEAD
+[2024-05-18 19:27:57.168] > git status -s --untracked-files=all --porcelain -z
+[2024-05-18 19:28:05.572] > git branch -a --no-color
+[2024-05-18 19:28:05.590] > git remote
+[2024-05-18 19:28:05.607] > git reflog --format=... refs/stash --
+[2024-05-18 19:28:05.639] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2024-05-18 19:28:05.657] > git show-ref -d --head
+[2024-05-18 19:28:05.676] > git status --untracked-files=all --porcelain
+[2024-05-18 19:28:05.694] > git diff --name-status --find-renames --diff-filter=AMDR -z HEAD
+[2024-05-18 19:28:05.701] > git diff --numstat --find-renames --diff-filter=AMDR -z HEAD
+[2024-05-18 19:28:05.710] > git status -s --untracked-files=all --porcelain -z
+[2024-05-18 19:28:09.296] > git branch -a --no-color
+[2024-05-18 19:28:09.315] > git remote
+[2024-05-18 19:28:09.334] > git reflog --format=... refs/stash --
+[2024-05-18 19:28:09.357] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2024-05-18 19:28:09.369] > git show-ref -d --head
+[2024-05-18 19:28:09.384] > git status --untracked-files=all --porcelain
+[2024-05-18 19:28:09.449] > git --no-pager config --list -z --includes
+[2024-05-18 19:28:09.461] > git --no-pager config --list -z --includes --local
+[2024-05-18 19:28:09.472] > git --no-pager config --list -z --includes --global
+[2024-05-18 19:28:10.370] > git branch -a --no-color
+[2024-05-18 19:28:10.389] > git remote
+[2024-05-18 19:28:10.407] > git reflog --format=... refs/stash --
+[2024-05-18 19:28:10.439] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2024-05-18 19:28:10.460] > git show-ref -d --head
+[2024-05-18 19:28:10.483] > git status --untracked-files=all --porcelain
+[2024-05-18 19:28:10.540] > git --no-pager config --list -z --includes
+[2024-05-18 19:28:10.550] > git --no-pager config --list -z --includes --local
+[2024-05-18 19:28:10.559] > git --no-pager config --list -z --includes --global
+[2024-05-18 19:28:11.016] > git branch -a --no-color
+[2024-05-18 19:28:11.037] > git remote
+[2024-05-18 19:28:11.055] > git reflog --format=... refs/stash --
+[2024-05-18 19:28:11.087] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2024-05-18 19:28:11.106] > git show-ref -d --head
+[2024-05-18 19:28:11.133] > git status --untracked-files=all --porcelain
+[2024-05-18 19:28:11.198] > git --no-pager config --list -z --includes
+[2024-05-18 19:28:11.207] > git --no-pager config --list -z --includes --local
+[2024-05-18 19:28:11.214] > git --no-pager config --list -z --includes --global
+[2024-05-18 19:28:11.766] > git branch -a --no-color
+[2024-05-18 19:28:11.777] > git remote
+[2024-05-18 19:28:11.788] > git reflog --format=... refs/stash --
+[2024-05-18 19:28:11.809] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2024-05-18 19:28:11.820] > git show-ref -d --head
+[2024-05-18 19:28:11.839] > git status --untracked-files=all --porcelain
+[2024-05-18 19:28:11.911] > git --no-pager config --list -z --includes
+[2024-05-18 19:28:11.919] > git --no-pager config --list -z --includes --local
+[2024-05-18 19:28:11.928] > git --no-pager config --list -z --includes --global
+[2024-05-18 19:28:13.921] > git branch -a --no-color
+[2024-05-18 19:28:13.942] > git remote
+[2024-05-18 19:28:13.962] > git reflog --format=... refs/stash --
+[2024-05-18 19:28:13.993] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2024-05-18 19:28:14.012] > git show-ref -d --head
+[2024-05-18 19:28:14.034] > git status --untracked-files=all --porcelain
+[2024-05-18 19:28:14.101] > git --no-pager config --list -z --includes
+[2024-05-18 19:28:14.112] > git --no-pager config --list -z --includes --local
+[2024-05-18 19:28:14.120] > git --no-pager config --list -z --includes --global
+[2024-05-18 19:28:14.523] > git branch -a --no-color
+[2024-05-18 19:28:14.540] > git remote
+[2024-05-18 19:28:14.561] > git reflog --format=... refs/stash --
+[2024-05-18 19:28:14.592] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2024-05-18 19:28:14.611] > git show-ref -d --head
+[2024-05-18 19:28:14.635] > git status --untracked-files=all --porcelain
+[2024-05-18 19:28:14.727] > git --no-pager config --list -z --includes
+[2024-05-18 19:28:14.736] > git --no-pager config --list -z --includes --local
+[2024-05-18 19:28:14.748] > git --no-pager config --list -z --includes --global
+[2024-05-18 19:28:15.108] > git branch -a --no-color
+[2024-05-18 19:28:15.125] > git remote
+[2024-05-18 19:28:15.145] > git reflog --format=... refs/stash --
+[2024-05-18 19:28:15.178] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2024-05-18 19:28:15.192] > git show-ref -d --head
+[2024-05-18 19:28:15.210] > git status --untracked-files=all --porcelain
+[2024-05-18 19:28:15.278] > git --no-pager config --list -z --includes
+[2024-05-18 19:28:15.287] > git --no-pager config --list -z --includes --local
+[2024-05-18 19:28:15.296] > git --no-pager config --list -z --includes --global
+[2024-05-18 19:28:15.463] > git branch -a --no-color
+[2024-05-18 19:28:15.474] > git remote
+[2024-05-18 19:28:15.483] > git reflog --format=... refs/stash --
+[2024-05-18 19:28:15.503] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2024-05-18 19:28:15.514] > git show-ref -d --head
+[2024-05-18 19:28:15.529] > git status --untracked-files=all --porcelain
+[2024-05-18 19:28:15.585] > git --no-pager config --list -z --includes
+[2024-05-18 19:28:15.595] > git --no-pager config --list -z --includes --local
+[2024-05-18 19:28:15.603] > git --no-pager config --list -z --includes --global
+[2024-05-18 19:28:22.333] > git branch -a --no-color
+[2024-05-18 19:28:22.341] > git remote
+[2024-05-18 19:28:22.350] > git reflog --format=... refs/stash --
+[2024-05-18 19:28:22.371] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2024-05-18 19:28:22.387] > git show-ref -d --head
+[2024-05-18 19:28:22.404] > git status --untracked-files=all --porcelain
+[2024-05-18 19:28:33.441] > git branch -a --no-color
+[2024-05-18 19:28:33.462] > git remote
+[2024-05-18 19:28:33.477] > git reflog --format=... refs/stash --
+[2024-05-18 19:28:33.509] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2024-05-18 19:28:33.526] > git show-ref -d --head
+[2024-05-18 19:28:33.549] > git status --untracked-files=all --porcelain
+[2024-05-18 19:28:57.378] > git branch -a --no-color
+[2024-05-18 19:28:57.390] > git remote
+[2024-05-18 19:28:57.402] > git reflog --format=... refs/stash --
+[2024-05-18 19:28:57.425] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2024-05-18 19:28:57.436] > git show-ref -d --head
+[2024-05-18 19:28:57.453] > git status --untracked-files=all --porcelain
+[2024-05-18 19:29:10.084] > git branch -a --no-color
+[2024-05-18 19:29:10.103] > git remote
+[2024-05-18 19:29:10.119] > git reflog --format=... refs/stash --
+[2024-05-18 19:29:10.139] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2024-05-18 19:29:10.151] > git show-ref -d --head
+[2024-05-18 19:29:10.169] > git status --untracked-files=all --porcelain

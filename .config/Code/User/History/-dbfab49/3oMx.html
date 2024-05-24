@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=viewport-width, initial-scale=1.0">
+    <title>Spotify Preview</title>
+    <script type="module" src="./js/index.mjs"></script>
+    
+    <!-- this line is IMPORTANT for display the icons of the player! -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+ 
+    <main class="discover">
+        
+        <section class="search-section">
+            <h1>Discover New Music </h1>
+            <search-bar></search-bar>
+        </section>
+        <section class="grid-section">
+            <bento-finded></bento-finded>
+        </section>
+        
+        <section class="suggestions-area">
+            <h4>You may like</h4>
+            <div class="track-suggestions">
+                <track-card></track-card>
+                <track-card></track-card>
+            </div>
+        </section>
+
+    </main>
+    <section class="player">
+        <h3>Now Playing</h1>
+        <!-- <playlist-tracker class="playlist-tracker" uri="spotify:album:7vfuTRXIAYJz5Uc8SddnTr"></playlist-tracker> -->
+        
+        <music-player></music-player>
+        
+
+    </section>
+    <aside class="tracklist">
+        <h2>Tracklist</h2>
+         <div class="album-tracks">
+            <track-card></track-card>
+            <track-card></track-card>
+            <track-card></track-card>
+            <track-card></track-card>
+            <track-card></track-card>
+            <track-card></track-card>
+            <track-card></track-card>
+            <track-card></track-card>
+            <track-card></track-card>
+         </div>
+        
+    </aside>
+    <nav class="view-changer">
+        <p class="discover-view"><i class='bx bx-album'></i></p>
+        <p class="player-view"><i class='bx bx-music'></i></p>
+        <p class="tracklist-view"><i class='bx bx-play-circle'></i></p>
+    </nav>
+</body>
+</html>
+
+
+   <!-- <music-player uri="spotify:track:4WNcduiCmDNfmTEz7JvmLv"></music-player> -->
+ 

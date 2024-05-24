@@ -1,0 +1,2 @@
+Recuerda que se puede usar la info disponible inicialmente gracias al observer, de este modo se puede conectar la tracklist
+a la derecha, importante reducir la cantidad de llamdas que se hacen a la api ;)

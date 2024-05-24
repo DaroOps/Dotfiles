@@ -1,0 +1,9 @@
+[2024-05-21 09:21:03.453] Starting Git Graph ...
+[2024-05-21 09:21:03.502] Using git (version: 2.45.1)
+[2024-05-21 09:21:03.514] Started Git Graph - Ready to use!
+[2024-05-21 09:21:03.515] Searching workspace for new repos ...
+[2024-05-21 09:21:03.520] > git rev-parse --show-toplevel
+[2024-05-21 09:21:03.554] Added new repo: /home/daro_ops/Documents/campus/proyectoJavascript
+[2024-05-21 09:21:03.555] Successfully set Visual Studio Code Context "git-graph:codiconsSupported" to "true"
+[2024-05-21 09:21:03.598] Completed searching workspace for new repos
+[2024-05-21 09:21:03.598] Showing "Git Graph" Status Bar Item

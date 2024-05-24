@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="./main.js"></script>
+    <script>
+        // Wait for iframe to load
+        var iframe = document.getElementById('spotifyPlayer');
+            // Access the iframe's document
+            var iframeDocument = document.getElementById('spotifyPlayer').contentWindow.document;
+    
+            // Select an element inside the iframe
+            var elementInsideIframe = iframeDocument.getElementById('someElementId');
+    
+            // Do something with the selected element
+            console.log(elementInsideIframe.textContent);
+        });
+    </script>
+</head>
+<body>
+    <iframe id="spotifyPlayer" src="https://open.spotify.com/embed/track/4uLU6hMCjMI75M1A2tKUQC" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+</body>
+</html>

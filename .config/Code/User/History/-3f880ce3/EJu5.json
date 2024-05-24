@@ -1,0 +1,38 @@
+{
+    db.class.insertMany([
+    {
+        "class": "Herbaceas", 
+        "descripcion_texto": "Plantas para jardin decorativas", 
+        "descripcion_html": null,
+        "imagen": null,
+        "id": 1
+    },
+    {
+        "class": "Herramientas",
+        "descripcion_texto": "Herramientas para todo tipo de acción",
+        "descripcion_html": null,
+        "imagen": null,
+        "id": 2
+    },
+    {
+        "class": "Aromáticas",
+        "descripcion_texto": "Plantas aromáticas",
+        "descripcion_html": null,
+        "imagen": null,
+        "id": 3
+    },
+    {
+        "class": "Frutales",
+        "descripcion_texto": "Árboles pequeños de producción frutal",
+        "descripcion_html": null,
+        "imagen": null,
+        "id": 4
+    },
+    {
+        "class": "Ornamentales",
+        "descripcion_texto": "Plantas vistosas para la decoración del jardín",
+        "descripcion_html": null,
+        "imagen": null,
+        "id": 5
+    }
+]}

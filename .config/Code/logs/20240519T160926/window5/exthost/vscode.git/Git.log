@@ -1,0 +1,24 @@
+2024-05-21 06:39:47.735 [info] Log level: Info
+2024-05-21 06:39:47.735 [info] Validating found git in: "git"
+2024-05-21 06:39:47.735 [info] Using git "2.45.1" from "git"
+2024-05-21 06:39:47.735 [info] > git rev-parse --show-toplevel [7ms]
+2024-05-21 06:39:47.735 [info] > git rev-parse --git-dir --git-common-dir [20ms]
+2024-05-21 06:39:47.735 [info] Open repository: /home/daro_ops/Documents/campus/infusionCodigoCafeinado
+2024-05-21 06:39:47.735 [info] > git rev-parse --show-toplevel [39ms]
+2024-05-21 06:39:47.735 [info] > git config --get commit.template [48ms]
+2024-05-21 06:39:47.735 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-05-21 06:39:47.735 [info] > git rev-parse --show-toplevel [19ms]
+2024-05-21 06:39:47.736 [info] > git rev-parse --show-toplevel [4ms]
+2024-05-21 06:39:47.757 [info] > git status -z -uall [13ms]
+2024-05-21 06:39:47.782 [info] > git merge-base refs/heads/main refs/remotes/origin/main [16ms]
+2024-05-21 06:39:47.790 [info] > git rev-parse --show-toplevel [38ms]
+2024-05-21 06:39:47.803 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [13ms]
+2024-05-21 06:39:47.810 [info] > git config --get commit.template [27ms]
+2024-05-21 06:39:47.812 [info] > git diff --name-status -z --diff-filter=ADMR 6b4b121cd39773462f1ad17c4bbc2ceecc3051cf...refs/remotes/origin/main [3ms]
+2024-05-21 06:39:47.813 [info] > git rev-parse --show-toplevel [11ms]
+2024-05-21 06:39:47.823 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-05-21 06:39:47.835 [info] > git status -z -uall [5ms]
+2024-05-21 06:39:48.529 [info] > git check-ignore -v -z --stdin [3ms]
+2024-05-21 06:39:50.944 [info] > git show --textconv :js/index.js [9ms]
+2024-05-21 06:39:50.947 [info] > git ls-files --stage -- /home/daro_ops/Documents/campus/infusionCodigoCafeinado/js/index.js [4ms]
+2024-05-21 06:39:50.958 [info] > git cat-file -s e119733f9dba0db9cab10d60053ff41a1a44c547 [2ms]

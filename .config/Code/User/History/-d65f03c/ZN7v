@@ -1,0 +1,29 @@
+# This is a combination of 3 commits.
+# This is the 1st commit message:
+
+feat: :tada: Setting up demo and actions
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Date:      Tue Apr 16 11:53:47 2024 -0500
+#
+# interactive rebase in progress; onto cb56658
+# Last commands done (3 commands done):
+#    squash e8d2186 fix: :bug: hotfix action
+#    squash 6b00ad0 docs :memo: update readme
+# No commands remaining.
+# You are currently rebasing branch 'main' on 'cb56658'.
+#
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   .github/workflows/test.yml
+#	new file:   .gitignore
+#	new file:   README.md
+#	new file:   js/demo1.js
+#	new file:   package-lock.json
+#	new file:   package.json
+#	new file:   tests/demo.test.js
+#

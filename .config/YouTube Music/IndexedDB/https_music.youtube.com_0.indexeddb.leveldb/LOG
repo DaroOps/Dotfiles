@@ -1,0 +1,75 @@
+2024/05/17-21:34:48.431 23b77b Reusing MANIFEST /home/daro_ops/.config/YouTube Music/IndexedDB/https_music.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/05/17-21:34:48.432 23b77b Recovering log #245
+2024/05/17-21:34:48.446 23b77b Reusing old log /home/daro_ops/.config/YouTube Music/IndexedDB/https_music.youtube.com_0.indexeddb.leveldb/000245.log 
+2024/05/17-22:14:36.839 23b77b Level-0 table #250: started
+2024/05/17-22:14:36.970 23b77b Level-0 table #250: 1314972 bytes OK
+2024/05/17-22:14:37.013 23b77b Delete type=0 #245
+2024/05/17-22:22:24.339 23b77b Compacting 1@1 + 1@2 files
+2024/05/17-22:22:24.444 23b77b Generated table #251@1: 1800 keys, 72286 bytes
+2024/05/17-22:22:24.444 23b77b Compacted 1@1 + 1@2 files => 72286 bytes
+2024/05/17-22:22:24.554 23b77b compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/05/17-22:22:24.555 23b77b Delete type=2 #247
+2024/05/17-22:22:24.555 23b77b Delete type=2 #250
+2024/05/18-09:55:25.521 23b77b Level-0 table #253: started
+2024/05/18-09:55:25.776 23b77b Level-0 table #253: 1329762 bytes OK
+2024/05/18-09:55:25.853 23b77b Delete type=0 #249
+2024/05/18-10:26:05.255 23b7e1 Compacting 1@1 + 1@2 files
+2024/05/18-10:26:05.387 23b7e1 Generated table #254@1: 1966 keys, 93026 bytes
+2024/05/18-10:26:05.387 23b7e1 Compacted 1@1 + 1@2 files => 93026 bytes
+2024/05/18-10:26:05.458 23b7e1 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/05/18-10:26:05.458 23b7e1 Delete type=2 #253
+2024/05/18-10:26:05.459 23b7e1 Delete type=2 #251
+2024/05/19-17:07:54.087 23b77b Level-0 table #256: started
+2024/05/19-17:07:54.318 23b77b Level-0 table #256: 1696072 bytes OK
+2024/05/19-17:07:54.427 23b77b Delete type=0 #252
+2024/05/19-17:15:52.312 23b77b Compacting 1@1 + 1@2 files
+2024/05/19-17:15:52.475 23b77b Generated table #257@1: 2117 keys, 82214 bytes
+2024/05/19-17:15:52.475 23b77b Compacted 1@1 + 1@2 files => 82214 bytes
+2024/05/19-17:15:52.554 23b77b compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/05/19-17:15:52.554 23b77b Delete type=2 #254
+2024/05/19-17:15:52.554 23b77b Delete type=2 #256
+2024/05/19-18:58:58.727 23b77b Level-0 table #259: started
+2024/05/19-18:58:58.861 23b77b Level-0 table #259: 1245112 bytes OK
+2024/05/19-18:58:58.911 23b77b Delete type=0 #255
+2024/05/19-19:09:22.946 23b77b Compacting 1@1 + 1@2 files
+2024/05/19-19:09:23.068 23b77b Generated table #260@1: 2343 keys, 96515 bytes
+2024/05/19-19:09:23.068 23b77b Compacted 1@1 + 1@2 files => 96515 bytes
+2024/05/19-19:09:23.220 23b77b compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/05/19-19:09:23.221 23b77b Delete type=2 #259
+2024/05/19-19:09:23.221 23b77b Delete type=2 #257
+2024/05/19-20:40:18.863 23b77b Level-0 table #262: started
+2024/05/19-20:40:19.061 23b77b Level-0 table #262: 1134406 bytes OK
+2024/05/19-20:40:19.142 23b77b Delete type=0 #258
+2024/05/19-20:44:20.505 23b77b Compacting 1@1 + 1@2 files
+2024/05/19-20:44:20.659 23b77b Generated table #263@1: 2507 keys, 88178 bytes
+2024/05/19-20:44:20.659 23b77b Compacted 1@1 + 1@2 files => 88178 bytes
+2024/05/19-20:44:20.710 23b77b compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/05/19-20:44:20.710 23b77b Delete type=2 #260
+2024/05/19-20:44:20.710 23b77b Delete type=2 #262
+2024/05/19-23:05:03.911 23b77b Level-0 table #265: started
+2024/05/19-23:05:04.062 23b77b Level-0 table #265: 1126568 bytes OK
+2024/05/19-23:05:04.108 23b77b Delete type=0 #261
+2024/05/19-23:09:21.583 23b77a Compacting 1@1 + 1@2 files
+2024/05/19-23:09:21.669 23b77a Generated table #266@1: 2683 keys, 111482 bytes
+2024/05/19-23:09:21.669 23b77a Compacted 1@1 + 1@2 files => 111482 bytes
+2024/05/19-23:09:21.715 23b77a compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/05/19-23:09:21.716 23b77a Delete type=2 #265
+2024/05/19-23:09:21.716 23b77a Delete type=2 #263
+2024/05/20-19:50:45.876 23b77b Level-0 table #268: started
+2024/05/20-19:50:46.205 23b77b Level-0 table #268: 1638355 bytes OK
+2024/05/20-19:50:46.282 23b77b Delete type=0 #264
+2024/05/20-19:56:52.330 23b77b Compacting 1@1 + 1@2 files
+2024/05/20-19:56:52.467 23b77b Generated table #269@1: 2952 keys, 106552 bytes
+2024/05/20-19:56:52.467 23b77b Compacted 1@1 + 1@2 files => 106552 bytes
+2024/05/20-19:56:52.544 23b77b compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/05/20-19:56:52.544 23b77b Delete type=2 #266
+2024/05/20-19:56:52.544 23b77b Delete type=2 #268
+2024/05/20-21:50:35.944 23b77b Level-0 table #271: started
+2024/05/20-21:50:36.098 23b77b Level-0 table #271: 1299274 bytes OK
+2024/05/20-21:50:36.266 23b77b Delete type=0 #267
+2024/05/20-21:55:34.949 23b77b Compacting 1@1 + 1@2 files
+2024/05/20-21:55:35.100 23b77b Generated table #272@1: 3176 keys, 124030 bytes
+2024/05/20-21:55:35.100 23b77b Compacted 1@1 + 1@2 files => 124030 bytes
+2024/05/20-21:55:35.174 23b77b compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/05/20-21:55:35.175 23b77b Delete type=2 #269
+2024/05/20-21:55:35.175 23b77b Delete type=2 #271

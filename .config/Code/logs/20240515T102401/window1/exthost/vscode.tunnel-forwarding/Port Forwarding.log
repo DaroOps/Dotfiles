@@ -1,0 +1,53 @@
+2024-05-17 16:58:45.259 [info] [forwarding] starting CLI
+2024-05-17 16:58:46.784 [info] [forwarding] [2024-05-17 16:58:46] debug Using file keychain storage due to: error reading keyring: Platform secure storage failure: zbus error: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+2024-05-17 16:58:46.956 [info] [forwarding] [2024-05-17 16:58:46] debug No code server tunnel found, creating new one
+2024-05-17 16:58:47.011 [info] [forwarding] [2024-05-17 16:58:47] trace Found token in keyring
+2024-05-17 16:58:51.132 [info] [forwarding] [2024-05-17 16:58:51] info Creating tunnel with the name: archlinux
+2024-05-17 16:58:51.132 [info] [forwarding] [2024-05-17 16:58:51] trace Found token in keyring
+2024-05-17 16:58:54.554 [info] [forwarding] [2024-05-17 16:58:54] trace Found token in keyring
+2024-05-17 16:58:55.402 [info] [forwarding] [2024-05-17 16:58:55] debug Starting tunnel to server...
+2024-05-17 16:58:55.426 [info] [forwarding] [2024-05-17 16:58:55] trace Found token in keyring
+2024-05-17 16:58:56.789 [info] [forwarding] [2024-05-17 16:58:56] trace Found token in keyring
+2024-05-17 16:58:56.815 [info] [forwarding] [2024-05-17 16:58:56] debug Connected to tunnel endpoint: TunnelRelayTunnelEndpoint { base: TunnelEndpoint { id: "7129ccf9-9a23-4723-871b-3b195a0d7d6c-relay", connection_mode: TunnelRelay, host_id: "7129ccf9-9a23-4723-871b-3b195a0d7d6c", host_public_keys: [], port_uri_format: Some("https://n95jncmp-{port}.use.devtunnels.ms/"), tunnel_uri: Some("https://n95jncmp.use.devtunnels.ms/"), port_ssh_command_format: Some("ssh n95jncmp-{port}@ssh.use.devtunnels.ms"), tunnel_ssh_command: Some("ssh n95jncmp@ssh.use.devtunnels.ms"), ssh_gateway_public_key: None }, host_relay_uri: Some("wss://use-data.rel.tunnels.api.visualstudio.com/api/v1/Host/Connect/tidy-cat-5z70p5g"), client_relay_uri: Some("wss://use-data.rel.tunnels.api.visualstudio.com/api/v1/Client/Connect/tidy-cat-5z70p5g") }
+2024-05-17 16:58:56.816 [info] [forwarding] [2024-05-17 16:58:56] trace Found token in keyring
+2024-05-17 16:58:57.259 [info] [forwarding] [2024-05-17 16:58:57] info forwarding port 5500 at Private
+2024-05-17 16:59:16.377 [info] [forwarding] [2024-05-17 16:59:16] trace Found token in keyring
+2024-05-17 16:59:16.703 [info] [forwarding] [2024-05-17 16:59:16] info stopped forwarding port 5500 at Private
+2024-05-17 16:59:18.396 [info] [forwarding] [2024-05-17 16:59:18] trace Found token in keyring
+2024-05-17 16:59:18.740 [info] [forwarding] [2024-05-17 16:59:18] info forwarding port 5500 at Public
+2024-05-17 17:58:57.329 [info] [forwarding] [2024-05-17 17:58:57] trace token was successfully refreshed in keepalive
+2024-05-17 18:58:57.847 [info] [forwarding] [2024-05-17 18:58:57] trace token was successfully refreshed in keepalive
+2024-05-17 19:58:58.241 [info] [forwarding] [2024-05-17 19:58:58] trace token was successfully refreshed in keepalive
+2024-05-17 20:58:58.673 [info] [forwarding] [2024-05-17 20:58:58] trace token was successfully refreshed in keepalive
+2024-05-17 21:58:59.116 [info] [forwarding] [2024-05-17 21:58:59] trace token was successfully refreshed in keepalive
+2024-05-18 08:12:55.020 [info] [forwarding] [2024-05-18 08:12:55] warn Tunnel exited unexpectedly but gracefully, reconnecting
+2024-05-18 08:13:00.021 [info] [forwarding] [2024-05-18 08:13:00] debug Starting tunnel to server...
+2024-05-18 08:13:00.021 [info] [forwarding] [2024-05-18 08:13:00] trace Found token in keyring
+2024-05-18 08:13:01.136 [info] [forwarding] [2024-05-18 08:13:01] trace Successfully refreshed access token
+2024-05-18 08:13:01.136 [info] [forwarding] [2024-05-18 08:13:01] trace Found token in keyring
+2024-05-18 08:18:45.017 [info] [forwarding] [2024-05-18 08:18:45] trace token was successfully refreshed in keepalive
+2024-05-18 08:31:12.144 [info] [forwarding] [2024-05-18 08:31:12] warn Tunnel exited unexpectedly but gracefully, reconnecting
+2024-05-18 08:31:17.146 [info] [forwarding] [2024-05-18 08:31:17] debug Starting tunnel to server...
+2024-05-18 08:31:17.146 [info] [forwarding] [2024-05-18 08:31:17] trace Found token in keyring
+2024-05-18 08:31:18.511 [info] [forwarding] [2024-05-18 08:31:18] trace Successfully refreshed access token
+2024-05-18 08:31:18.511 [info] [forwarding] [2024-05-18 08:31:18] trace Found token in keyring
+2024-05-18 09:18:44.754 [info] [forwarding] [2024-05-18 09:18:44] trace token was successfully refreshed in keepalive
+2024-05-18 10:18:45.164 [info] [forwarding] [2024-05-18 10:18:45] trace token was successfully refreshed in keepalive
+2024-05-18 11:18:45.566 [info] [forwarding] [2024-05-18 11:18:45] trace token was successfully refreshed in keepalive
+2024-05-18 12:18:45.965 [info] [forwarding] [2024-05-18 12:18:45] trace token was successfully refreshed in keepalive
+2024-05-18 13:18:46.361 [info] [forwarding] [2024-05-18 13:18:46] trace token was successfully refreshed in keepalive
+2024-05-18 14:18:46.779 [info] [forwarding] [2024-05-18 14:18:46] trace token was successfully refreshed in keepalive
+2024-05-18 15:18:47.188 [info] [forwarding] [2024-05-18 15:18:47] trace token was successfully refreshed in keepalive
+2024-05-18 16:18:47.631 [info] [forwarding] [2024-05-18 16:18:47] trace token was successfully refreshed in keepalive
+2024-05-18 17:18:48.028 [info] [forwarding] [2024-05-18 17:18:48] trace token was successfully refreshed in keepalive
+2024-05-18 18:18:48.422 [info] [forwarding] [2024-05-18 18:18:48] trace token was successfully refreshed in keepalive
+2024-05-18 19:18:48.862 [info] [forwarding] [2024-05-18 19:18:48] trace token was successfully refreshed in keepalive
+2024-05-18 20:18:49.354 [info] [forwarding] [2024-05-18 20:18:49] trace token was successfully refreshed in keepalive
+2024-05-18 21:18:49.758 [info] [forwarding] [2024-05-18 21:18:49] trace token was successfully refreshed in keepalive
+2024-05-19 13:54:41.813 [info] [forwarding] [2024-05-19 13:54:41] warn Tunnel exited unexpectedly but gracefully, reconnecting
+2024-05-19 13:54:46.814 [info] [forwarding] [2024-05-19 13:54:46] debug Starting tunnel to server...
+2024-05-19 13:54:46.814 [info] [forwarding] [2024-05-19 13:54:46] trace Found token in keyring
+2024-05-19 13:54:49.431 [info] [forwarding] [2024-05-19 13:54:49] trace Successfully refreshed access token
+2024-05-19 13:54:49.431 [info] [forwarding] [2024-05-19 13:54:49] trace Found token in keyring
+2024-05-19 14:33:12.357 [info] [forwarding] [2024-05-19 14:33:12] trace token was successfully refreshed in keepalive
+2024-05-19 15:33:12.767 [info] [forwarding] [2024-05-19 15:33:12] trace token was successfully refreshed in keepalive

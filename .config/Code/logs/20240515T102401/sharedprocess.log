@@ -1,0 +1,26 @@
+2024-05-15 10:24:23.645 [info] Getting Manifest... rangav.vscode-thunder-client
+2024-05-15 10:24:23.958 [info] Installing extension: rangav.vscode-thunder-client
+2024-05-15 10:24:32.265 [info] Extension signature verification result for rangav.vscode-thunder-client: UnknownError. Duration: 1632ms.
+2024-05-15 10:24:32.951 [info] Extracted extension to file:///home/daro_ops/.vscode/extensions/rangav.vscode-thunder-client-2.23.4: rangav.vscode-thunder-client
+2024-05-15 10:24:33.119 [info] Renamed to /home/daro_ops/.vscode/extensions/rangav.vscode-thunder-client-2.23.4
+2024-05-15 10:24:33.124 [info] Extracting extension completed. rangav.vscode-thunder-client
+2024-05-15 10:24:33.362 [info] Extension installed successfully: rangav.vscode-thunder-client
+2024-05-15 10:24:33.377 [info] Marked extension as uninstalled rangav.vscode-thunder-client-2.23.0
+2024-05-16 19:48:09.936 [info] Uninstalling extension from the profile: esbenp.prettier-vscode@10.4.0 vscode-userdata:/home/daro_ops/.vscode/extensions/extensions.json
+2024-05-16 19:48:10.182 [info] Marked extension as uninstalled esbenp.prettier-vscode-10.4.0
+2024-05-16 19:48:10.373 [info] Successfully uninstalled extension from the profile esbenp.prettier-vscode@10.4.0 vscode-userdata:/home/daro_ops/.vscode/extensions/extensions.json
+2024-05-16 19:48:12.967 [info] Getting Manifest... rangav.vscode-thunder-client
+2024-05-16 19:48:13.002 [info] Installing extension: rangav.vscode-thunder-client
+2024-05-16 19:48:14.801 [info] Extension signature verification result for rangav.vscode-thunder-client: UnknownError. Duration: 23ms.
+2024-05-16 19:48:15.107 [info] Extracted extension to file:///home/daro_ops/.vscode/extensions/rangav.vscode-thunder-client-2.23.6: rangav.vscode-thunder-client
+2024-05-16 19:48:15.164 [info] Renamed to /home/daro_ops/.vscode/extensions/rangav.vscode-thunder-client-2.23.6
+2024-05-16 19:48:15.166 [info] Extracting extension completed. rangav.vscode-thunder-client
+2024-05-16 19:48:15.236 [info] Extension installed successfully: rangav.vscode-thunder-client
+2024-05-16 19:48:15.244 [info] Marked extension as uninstalled rangav.vscode-thunder-client-2.23.4
+2024-05-16 19:48:15.274 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/daro_ops/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/daro_ops/.vscode/extensions/extensions.json.vsctmp'
+    at a.create (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30019)
+    at b (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30130)
+    at t.hb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36600)
+    at t.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29040)
+    at async $.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16186)
+    at async J.sb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:109501)

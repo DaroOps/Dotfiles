@@ -1,0 +1,181 @@
+[info] Extension Activated
+[info] vscode.env.language: en
+[info] last used version: 1.25.0
+[info] Conventional commits started.
+[info] VSCode version: 1.89.1
+[info] Git version: 1.0.0
+[info] VSCode Conventional Commits version: 1.25.0
+[info] conventionalCommits.autoCommit: true
+[info] conventionalCommits.silentAutoCommit: false
+[info] conventionalCommits.emojiFormat: code
+[info] conventionalCommits.gitmoji: true
+[info] conventionalCommits.lineBreak: 
+[info] conventionalCommits.promptBody: true
+[info] conventionalCommits.promptCI: false
+[info] conventionalCommits.promptFooter: true
+[info] conventionalCommits.promptScopes: true
+[info] conventionalCommits.scopes: 
+[info] conventionalCommits.showEditor: false
+[info] conventionalCommits.showNewVersionNotes: true
+[info] conventionalCommits.editor.keepAfterSave: false
+[info] git.enableSmartCommit: false
+[info] git.smartCommitChanges: all
+[info] git.postCommitCommand: none
+[info] _arg: undefined
+[info] git.repositories: /home/daro_ops/Documents/campus/proyectoJavascript
+[info] workspaceFolders: /home/daro_ops/Documents/campus/proyectoJavascript
+[info] Load commitlint configuration successfully.
+[info] commitlintRuleConfigs:
+{}
+[info] Conventional commits started.
+[info] VSCode version: 1.89.1
+[info] Git version: 1.0.0
+[info] VSCode Conventional Commits version: 1.25.0
+[info] conventionalCommits.autoCommit: true
+[info] conventionalCommits.silentAutoCommit: false
+[info] conventionalCommits.emojiFormat: code
+[info] conventionalCommits.gitmoji: true
+[info] conventionalCommits.lineBreak: 
+[info] conventionalCommits.promptBody: true
+[info] conventionalCommits.promptCI: false
+[info] conventionalCommits.promptFooter: true
+[info] conventionalCommits.promptScopes: true
+[info] conventionalCommits.scopes: 
+[info] conventionalCommits.showEditor: false
+[info] conventionalCommits.showNewVersionNotes: true
+[info] conventionalCommits.editor.keepAfterSave: false
+[info] git.enableSmartCommit: false
+[info] git.smartCommitChanges: all
+[info] git.postCommitCommand: none
+[info] _arg: /home/daro_ops/Documents/campus/proyectoJavascript
+[info] git.repositories: /home/daro_ops/Documents/campus/proyectoJavascript
+[info] workspaceFolders: /home/daro_ops/Documents/campus/proyectoJavascript
+[info] Load commitlint configuration successfully.
+[info] commitlintRuleConfigs:
+{}
+[info] messageJSON:
+{
+  "_type": "style",
+  "_scope": "",
+  "_gitmoji": ":lipstick:",
+  "_subject": "Add responsive and fixing styles",
+  "_body": "",
+  "_footer": "",
+  "_ci": ""
+}
+[info] message:
+style: :lipstick: Add responsive and fixing styles
+[info] inputBox.value:
+style: :lipstick: Add responsive and fixing styles
+[info] Auto commit finished successfully.
+[info] conventionalCommits finished successfully.
+[info] Conventional commits started.
+[info] VSCode version: 1.89.1
+[info] Git version: 1.0.0
+[info] VSCode Conventional Commits version: 1.25.0
+[info] conventionalCommits.autoCommit: true
+[info] conventionalCommits.silentAutoCommit: false
+[info] conventionalCommits.emojiFormat: code
+[info] conventionalCommits.gitmoji: true
+[info] conventionalCommits.lineBreak: 
+[info] conventionalCommits.promptBody: true
+[info] conventionalCommits.promptCI: false
+[info] conventionalCommits.promptFooter: true
+[info] conventionalCommits.promptScopes: true
+[info] conventionalCommits.scopes: 
+[info] conventionalCommits.showEditor: false
+[info] conventionalCommits.showNewVersionNotes: true
+[info] conventionalCommits.editor.keepAfterSave: false
+[info] git.enableSmartCommit: false
+[info] git.smartCommitChanges: all
+[info] git.postCommitCommand: none
+[info] _arg: /home/daro_ops/Documents/campus/proyectoJavascript
+[info] git.repositories: /home/daro_ops/Documents/campus/proyectoJavascript
+[info] workspaceFolders: /home/daro_ops/Documents/campus/proyectoJavascript
+[info] Load commitlint configuration successfully.
+[info] commitlintRuleConfigs:
+{}
+[info] messageJSON:
+{
+  "_type": "refactor",
+  "_scope": "",
+  "_gitmoji": ":recycle:",
+  "_subject": "Add more data to the search query",
+  "_body": "",
+  "_footer": "",
+  "_ci": ""
+}
+[info] message:
+refactor: :recycle: Add more data to the search query
+[info] inputBox.value:
+refactor: :recycle: Add more data to the search query
+[info] Auto commit finished successfully.
+[info] conventionalCommits finished successfully.
+[info] Conventional commits started.
+[info] VSCode version: 1.89.1
+[info] Git version: 1.0.0
+[info] VSCode Conventional Commits version: 1.25.0
+[info] conventionalCommits.autoCommit: true
+[info] conventionalCommits.silentAutoCommit: false
+[info] conventionalCommits.emojiFormat: code
+[info] conventionalCommits.gitmoji: true
+[info] conventionalCommits.lineBreak: 
+[info] conventionalCommits.promptBody: true
+[info] conventionalCommits.promptCI: false
+[info] conventionalCommits.promptFooter: true
+[info] conventionalCommits.promptScopes: true
+[info] conventionalCommits.scopes: 
+[info] conventionalCommits.showEditor: false
+[info] conventionalCommits.showNewVersionNotes: true
+[info] conventionalCommits.editor.keepAfterSave: false
+[info] git.enableSmartCommit: false
+[info] git.smartCommitChanges: all
+[info] git.postCommitCommand: none
+[info] _arg: /home/daro_ops/Documents/campus/proyectoJavascript
+[info] git.repositories: /home/daro_ops/Documents/campus/proyectoJavascript
+[info] workspaceFolders: /home/daro_ops/Documents/campus/proyectoJavascript
+[info] Load commitlint configuration successfully.
+[info] commitlintRuleConfigs:
+{}
+[info] Conventional commits started.
+[info] VSCode version: 1.89.1
+[info] Git version: 1.0.0
+[info] VSCode Conventional Commits version: 1.25.0
+[info] conventionalCommits.autoCommit: true
+[info] conventionalCommits.silentAutoCommit: false
+[info] conventionalCommits.emojiFormat: code
+[info] conventionalCommits.gitmoji: true
+[info] conventionalCommits.lineBreak: 
+[info] conventionalCommits.promptBody: true
+[info] conventionalCommits.promptCI: false
+[info] conventionalCommits.promptFooter: true
+[info] conventionalCommits.promptScopes: true
+[info] conventionalCommits.scopes: 
+[info] conventionalCommits.showEditor: false
+[info] conventionalCommits.showNewVersionNotes: true
+[info] conventionalCommits.editor.keepAfterSave: false
+[info] git.enableSmartCommit: false
+[info] git.smartCommitChanges: all
+[info] git.postCommitCommand: none
+[info] _arg: /home/daro_ops/Documents/campus/proyectoJavascript
+[info] git.repositories: /home/daro_ops/Documents/campus/proyectoJavascript
+[info] workspaceFolders: /home/daro_ops/Documents/campus/proyectoJavascript
+[info] Load commitlint configuration successfully.
+[info] commitlintRuleConfigs:
+{}
+[info] messageJSON:
+{
+  "_type": "feat",
+  "_scope": "",
+  "_gitmoji": ":construction:",
+  "_subject": "Add a music player ready for implement playlist",
+  "_body": "",
+  "_footer": "",
+  "_ci": ""
+}
+[info] message:
+feat: :construction: Add a music player ready for implement playlist
+[info] inputBox.value:
+feat: :construction: Add a music player ready for implement playlist
+[info] Auto commit finished successfully.
+[info] conventionalCommits finished successfully.

@@ -1,0 +1,15 @@
+{
+    "workbench.colorTheme": "Wal",
+    "window.menuBarVisibility": "toggle",
+    "files.autoSave": "afterDelay",
+    "terminal.integrated.fontFamily": "Iosevka Extrabold, Symbols Nerd Font Mono",
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'Iosevka','Droid Sans Mono', 'monospace', monospace",
+    "terminal.integrated.lineHeight": 1.2,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        
+    },
+    "explorer.confirmDragAndDrop": false
+}

@@ -1,0 +1,86 @@
+[2024-05-19 16:09:38.923] Starting Git Graph ...
+[2024-05-19 16:09:38.993] Using git (version: 2.45.1)
+[2024-05-19 16:09:39.012] > git rev-parse --show-toplevel
+[2024-05-19 16:09:39.013] Showing "Git Graph" Status Bar Item
+[2024-05-19 16:09:39.017] Started Git Graph - Ready to use!
+[2024-05-19 16:09:39.090] Searching workspace for new repos ...
+[2024-05-19 16:09:39.090] Completed searching workspace for new repos
+[2024-05-19 16:09:39.092] Successfully set Visual Studio Code Context "git-graph:codiconsSupported" to "true"
+[2024-05-19 23:39:21.912] Created Git Graph View (active repo: /home/daro_ops/Documents/campus/infusionCodigoCafeinado)
+[2024-05-19 23:39:22.167] > git branch -a --no-color
+[2024-05-19 23:39:22.175] > git remote
+[2024-05-19 23:39:22.184] > git reflog --format=... refs/stash --
+[2024-05-19 23:39:22.187] Started watching repo: /home/daro_ops/Documents/campus/infusionCodigoCafeinado
+[2024-05-19 23:39:22.206] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2024-05-19 23:39:22.214] > git show-ref -d --head
+[2024-05-19 23:39:22.229] > git status --untracked-files=all --porcelain
+[2024-05-19 23:39:22.342] > git --no-pager config --list -z --includes
+[2024-05-19 23:39:22.347] > git --no-pager config --list -z --includes --local
+[2024-05-19 23:39:22.352] > git --no-pager config --list -z --includes --global
+[2024-05-19 23:40:31.541] > git -c log.showSignature=false show --quiet fdb47b529b93fb361c9d724bcf7938eedfd67e9e --format=...
+[2024-05-19 23:40:31.547] > git diff --name-status --find-renames --diff-filter=AMDR -z fdb47b529b93fb361c9d724bcf7938eedfd67e9e^ fdb47b529b93fb361c9d724bcf7938eedfd67e9e
+[2024-05-19 23:40:31.552] > git diff --numstat --find-renames --diff-filter=AMDR -z fdb47b529b93fb361c9d724bcf7938eedfd67e9e^ fdb47b529b93fb361c9d724bcf7938eedfd67e9e
+[2024-05-19 23:40:45.225] > git -c log.showSignature=false show --quiet 70ce753730688e2ef7ef2baa9f3c0ad451b46632 --format=...
+[2024-05-19 23:40:45.231] > git diff --name-status --find-renames --diff-filter=AMDR -z 70ce753730688e2ef7ef2baa9f3c0ad451b46632^ 70ce753730688e2ef7ef2baa9f3c0ad451b46632
+[2024-05-19 23:40:45.240] > git diff --numstat --find-renames --diff-filter=AMDR -z 70ce753730688e2ef7ef2baa9f3c0ad451b46632^ 70ce753730688e2ef7ef2baa9f3c0ad451b46632
+[2024-05-19 23:40:46.818] > git show 70ce753730688e2ef7ef2baa9f3c0ad451b46632:.vscode/settings.json
+[2024-05-19 23:40:46.950] Stopped watching repo: /home/daro_ops/Documents/campus/infusionCodigoCafeinado
+[2024-05-19 23:40:51.189] > git branch -a --no-color
+[2024-05-19 23:40:51.193] > git remote
+[2024-05-19 23:40:51.200] > git reflog --format=... refs/stash --
+[2024-05-19 23:40:51.202] Started watching repo: /home/daro_ops/Documents/campus/infusionCodigoCafeinado
+[2024-05-19 23:40:51.211] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2024-05-19 23:40:51.219] > git show-ref -d --head
+[2024-05-19 23:40:51.228] > git status --untracked-files=all --porcelain
+[2024-05-19 23:40:55.457] > git -c log.showSignature=false show --quiet 17d154ac75c9318d88312f02455d82866519af1a --format=...
+[2024-05-19 23:40:55.464] > git diff --name-status --find-renames --diff-filter=AMDR -z 17d154ac75c9318d88312f02455d82866519af1a^ 17d154ac75c9318d88312f02455d82866519af1a
+[2024-05-19 23:40:55.472] > git diff --numstat --find-renames --diff-filter=AMDR -z 17d154ac75c9318d88312f02455d82866519af1a^ 17d154ac75c9318d88312f02455d82866519af1a
+[2024-05-19 23:40:57.200] > git show 17d154ac75c9318d88312f02455d82866519af1a:css/report.css
+[2024-05-19 23:40:57.240] Stopped watching repo: /home/daro_ops/Documents/campus/infusionCodigoCafeinado
+[2024-05-19 23:40:59.814] > git branch -a --no-color
+[2024-05-19 23:40:59.820] > git remote
+[2024-05-19 23:40:59.825] > git reflog --format=... refs/stash --
+[2024-05-19 23:40:59.826] Started watching repo: /home/daro_ops/Documents/campus/infusionCodigoCafeinado
+[2024-05-19 23:40:59.836] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2024-05-19 23:40:59.841] > git show-ref -d --head
+[2024-05-19 23:40:59.848] > git status --untracked-files=all --porcelain
+[2024-05-19 23:41:13.707] > git -c log.showSignature=false show --quiet fdb47b529b93fb361c9d724bcf7938eedfd67e9e --format=...
+[2024-05-19 23:41:13.724] > git diff --name-status --find-renames --diff-filter=AMDR -z fdb47b529b93fb361c9d724bcf7938eedfd67e9e^ fdb47b529b93fb361c9d724bcf7938eedfd67e9e
+[2024-05-19 23:41:13.747] > git diff --numstat --find-renames --diff-filter=AMDR -z fdb47b529b93fb361c9d724bcf7938eedfd67e9e^ fdb47b529b93fb361c9d724bcf7938eedfd67e9e
+[2024-05-19 23:41:20.931] > git -c log.showSignature=false show --quiet fdb47b529b93fb361c9d724bcf7938eedfd67e9e --format=...
+[2024-05-19 23:41:20.942] > git diff --name-status --find-renames --diff-filter=AMDR -z fdb47b529b93fb361c9d724bcf7938eedfd67e9e^ fdb47b529b93fb361c9d724bcf7938eedfd67e9e
+[2024-05-19 23:41:20.954] > git diff --numstat --find-renames --diff-filter=AMDR -z fdb47b529b93fb361c9d724bcf7938eedfd67e9e^ fdb47b529b93fb361c9d724bcf7938eedfd67e9e
+[2024-05-19 23:41:45.987] > git branch -a --no-color
+[2024-05-19 23:41:45.996] > git remote
+[2024-05-19 23:41:46.006] > git reflog --format=... refs/stash --
+[2024-05-19 23:41:46.019] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2024-05-19 23:41:46.028] > git show-ref -d --head
+[2024-05-19 23:41:46.040] > git status --untracked-files=all --porcelain
+[2024-05-19 23:41:47.891] > git branch -a --no-color
+[2024-05-19 23:41:47.901] > git remote
+[2024-05-19 23:41:47.909] > git reflog --format=... refs/stash --
+[2024-05-19 23:41:47.930] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2024-05-19 23:41:47.940] > git show-ref -d --head
+[2024-05-19 23:41:47.953] > git status --untracked-files=all --porcelain
+[2024-05-19 23:41:48.010] > git --no-pager config --list -z --includes
+[2024-05-19 23:41:48.021] > git --no-pager config --list -z --includes --local
+[2024-05-19 23:41:48.029] > git --no-pager config --list -z --includes --global
+[2024-05-20 10:31:16.244] Stopped watching repo: /home/daro_ops/Documents/campus/infusionCodigoCafeinado
+[2024-05-20 22:16:23.600] Created Git Graph View (active repo: /home/daro_ops/Documents/campus/infusionCodigoCafeinado)
+[2024-05-20 22:16:23.881] > git branch -a --no-color
+[2024-05-20 22:16:23.888] > git remote
+[2024-05-20 22:16:23.896] > git reflog --format=... refs/stash --
+[2024-05-20 22:16:23.899] Started watching repo: /home/daro_ops/Documents/campus/infusionCodigoCafeinado
+[2024-05-20 22:16:23.912] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2024-05-20 22:16:23.920] > git show-ref -d --head
+[2024-05-20 22:16:23.932] > git status --untracked-files=all --porcelain
+[2024-05-20 22:16:24.009] > git --no-pager config --list -z --includes
+[2024-05-20 22:16:24.016] > git --no-pager config --list -z --includes --local
+[2024-05-20 22:16:24.024] > git --no-pager config --list -z --includes --global
+[2024-05-20 22:16:54.520] > git branch -a --no-color
+[2024-05-20 22:16:54.532] > git remote
+[2024-05-20 22:16:54.544] > git reflog --format=... refs/stash --
+[2024-05-20 22:16:54.562] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2024-05-20 22:16:54.573] > git show-ref -d --head
+[2024-05-20 22:16:54.586] > git status --untracked-files=all --porcelain
+[2024-05-21 05:58:38.055] Stopped watching repo: /home/daro_ops/Documents/campus/infusionCodigoCafeinado

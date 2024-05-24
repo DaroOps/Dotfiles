@@ -1,0 +1,22 @@
+.bento-finded{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1rem;
+    width: 100%;
+
+    height: auto;
+  }
+  
+  .bento-grid{
+    overflow-y: auto;
+    display: grid;
+    grid-template-columns: 
+      repeat(
+          auto-fit,
+          minmax(140px, 1fr)
+      );
+    
+    gap: .5rem;
+  }
+  
+ 

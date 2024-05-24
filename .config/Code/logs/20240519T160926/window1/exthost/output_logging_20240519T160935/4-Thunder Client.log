@@ -1,0 +1,170 @@
+
+---------------- Running Request: ----------------
+Request Url: http://127.0.0.1:5500/js/modules/helpers.js
+Method: POST
+Request Headers:
+{
+  "accept-encoding": "gzip, deflate, br",
+  "Accept": "*/*",
+  "User-Agent": "Thunder Client (https://www.thunderclient.com)"
+}
+
+---------------- Running Request: ----------------
+Request Url: http://localhost:5505/payments?year=2008
+Method: GET
+Request Headers:
+{
+  "accept-encoding": "gzip, deflate, br",
+  "Accept": "*/*",
+  "User-Agent": "Thunder Client (https://www.thunderclient.com)"
+}
+
+---------------- Running Request: ----------------
+Request Url: http://localhost:5505/payments?year=2008
+Method: GET
+Request Headers:
+{
+  "accept-encoding": "gzip, deflate, br",
+  "Accept": "*/*",
+  "User-Agent": "Thunder Client (https://www.thunderclient.com)"
+}
+
+---------------- Running Request: ----------------
+Request Url: http://localhost:5505/payments?year=2008
+Method: GET
+Request Headers:
+{
+  "accept-encoding": "gzip, deflate, br",
+  "Accept": "*/*",
+  "User-Agent": "Thunder Client (https://www.thunderclient.com)"
+}
+
+---------------- Running Request: ----------------
+Request Url: http://localhost:5505/payments?year=2008
+Method: GET
+Request Headers:
+{
+  "accept-encoding": "gzip, deflate, br",
+  "Accept": "*/*",
+  "User-Agent": "Thunder Client (https://www.thunderclient.com)"
+}
+
+---------------- Running Request: ----------------
+Request Url: http://localhost:5505/payments?year=2008
+Method: GET
+Request Headers:
+{
+  "accept-encoding": "gzip, deflate, br",
+  "Accept": "*/*",
+  "User-Agent": "Thunder Client (https://www.thunderclient.com)"
+}
+
+---------------- Running Request: ----------------
+Request Url: http://localhost:5505/payments
+Method: GET
+Request Headers:
+{
+  "accept-encoding": "gzip, deflate, br",
+  "Accept": "*/*",
+  "User-Agent": "Thunder Client (https://www.thunderclient.com)"
+}
+
+---------------- Running Request: ----------------
+Request Url: http://localhost:5505/payments
+Method: GET
+Request Headers:
+{
+  "accept-encoding": "gzip, deflate, br",
+  "Accept": "*/*",
+  "User-Agent": "Thunder Client (https://www.thunderclient.com)"
+}
+
+---------------- Running Request: ----------------
+Request Url: http://localhost:5505/payments
+Method: GET
+Request Headers:
+{
+  "accept-encoding": "gzip, deflate, br",
+  "Accept": "*/*",
+  "User-Agent": "Thunder Client (https://www.thunderclient.com)"
+}
+
+---------------- Running Request: ----------------
+Request Url: http://localhost:5505/payments
+Method: GET
+Request Headers:
+{
+  "accept-encoding": "gzip, deflate, br",
+  "Accept": "*/*",
+  "User-Agent": "Thunder Client (https://www.thunderclient.com)"
+}
+
+---------------- Running Request: ----------------
+Request Url: http://localhost:5505/payments
+Method: GET
+Request Headers:
+{
+  "accept-encoding": "gzip, deflate, br",
+  "Accept": "*/*",
+  "User-Agent": "Thunder Client (https://www.thunderclient.com)"
+}
+
+---------------- Running Request: ----------------
+Request Url: http://localhost:5505/payments
+Method: GET
+Request Headers:
+{
+  "accept-encoding": "gzip, deflate, br",
+  "Accept": "*/*",
+  "User-Agent": "Thunder Client (https://www.thunderclient.com)"
+}
+
+---------------- Running Request: ----------------
+Request Url: http://localhost:5505/payments
+Method: GET
+Request Headers:
+{
+  "accept-encoding": "gzip, deflate, br",
+  "Accept": "*/*",
+  "User-Agent": "Thunder Client (https://www.thunderclient.com)"
+}
+
+---------------- Running Request: ----------------
+Request Url: http://localhost:5505/payments
+Method: GET
+Request Headers:
+{
+  "accept-encoding": "gzip, deflate, br",
+  "Accept": "*/*",
+  "User-Agent": "Thunder Client (https://www.thunderclient.com)"
+}
+
+---------------- Running Request: ----------------
+Request Url: http://localhost:5005/payments
+Method: GET
+Request Headers:
+{
+  "accept-encoding": "gzip, deflate, br",
+  "Accept": "*/*",
+  "User-Agent": "Thunder Client (https://www.thunderclient.com)"
+}
+
+---------------- Running Request: ----------------
+Request Url: http://localhost:5005/payments?year=2008
+Method: GET
+Request Headers:
+{
+  "accept-encoding": "gzip, deflate, br",
+  "Accept": "*/*",
+  "User-Agent": "Thunder Client (https://www.thunderclient.com)"
+}
+
+---------------- Running Request: ----------------
+Request Url: http://localhost:5005/payments
+Method: GET
+Request Headers:
+{
+  "accept-encoding": "gzip, deflate, br",
+  "Accept": "*/*",
+  "User-Agent": "Thunder Client (https://www.thunderclient.com)"
+}

@@ -1,0 +1,8 @@
+{
+    "workbench.colorTheme": "Wal",
+    "window.menuBarVisibility": "toggle",
+    "files.autoSave": "afterDelay",
+    "terminal.integrated.fontFamily": "Iosevka-Medium",
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'Iosevka','Droid Sans Mono', 'monospace', monospace"
+}

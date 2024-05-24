@@ -1,0 +1,15 @@
+# GIMP action-history
+
+(history-item "file-export-as" 5)
+(history-item "file-open" 1)
+(history-item "edit-cut" 0)
+(history-item "file-open-as-layers" 2)
+(history-item "select-all" 0)
+(history-item "edit-clear" 0)
+(history-item "edit-paste" 0)
+(history-item "layers-crop-to-selection" 0)
+(history-item "dialogs-preferences" 0)
+(history-item "view-close" 0)
+(history-item "file-open-location" 1)
+
+# end of action-history

@@ -1,0 +1,110 @@
+{
+	"window-size": {
+		"width": 920,
+		"height": 976
+	},
+	"window-maximized": false,
+	"window-position": {
+		"x": 30,
+		"y": 1154
+	},
+	"url": "https://music.youtube.com/watch?v=dwxUgefMStM&list=RDTMAK5uy_kset8DisdE7LSD4TNjEVvrKRTmG7a56sY&index=0",
+	"options": {
+		"tray": false,
+		"appVisible": true,
+		"autoUpdates": true,
+		"alwaysOnTop": false,
+		"hideMenu": true,
+		"hideMenuWarned": true,
+		"startAtLogin": false,
+		"disableHardwareAcceleration": false,
+		"removeUpgradeButton": false,
+		"restartOnConfigChanges": false,
+		"trayClickPlayPause": false,
+		"autoResetAppCache": false,
+		"resumeOnStart": true,
+		"likeButtons": "",
+		"proxy": "",
+		"startingPage": "Default",
+		"overrideUserAgent": false,
+		"usePodcastParticipantAsArtist": false,
+		"themes": [
+			"/home/daro_ops/.config/youtube-music/catppucin.css"
+		]
+	},
+	"plugins": {
+		"notifications": {},
+		"video-toggle": {
+			"enabled": false,
+			"hideVideo": true,
+			"mode": "custom",
+			"forceHide": true,
+			"align": "left"
+		},
+		"precise-volume": {
+			"globalShortcuts": {},
+			"enabled": false
+		},
+		"discord": {
+			"listenAlong": true
+		},
+		"exponential-volume": {
+			"enabled": true
+		},
+		"skip-disliked-songs": {
+			"enabled": true
+		},
+		"sponsorblock": {
+			"enabled": true
+		},
+		"captions-selector": {
+			"enabled": true,
+			"disableCaptions": false,
+			"autoload": false,
+			"lastCaptionsCode": "en"
+		},
+		"compact-sidebar": {
+			"enabled": true
+		},
+		"bypass-age-restrictions": {
+			"enabled": true
+		},
+		"blur-nav-bar": {
+			"enabled": false
+		},
+		"album-actions": {
+			"enabled": true
+		},
+		"lyrics-genius": {
+			"enabled": true
+		},
+		"in-app-menu": {
+			"enabled": false,
+			"hideDOMWindowControls": true
+		},
+		"skip-silences": {
+			"enabled": false
+		},
+		"audio-compressor": {
+			"enabled": false
+		},
+		"ambient-mode": {
+			"enabled": false
+		},
+		"adblocker": {
+			"enabled": true,
+			"cache": true,
+			"blocker": "With blocklists",
+			"additionalBlockLists": [],
+			"disableDefaultLists": false
+		},
+		"visualizer": {
+			"enabled": false
+		}
+	},
+	"__internal__": {
+		"migrations": {
+			"version": "3.3.6"
+		}
+	}
+}

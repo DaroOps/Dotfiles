@@ -1,0 +1,1 @@
+js/components/trackCard js/components/trackCard/trackCard.js

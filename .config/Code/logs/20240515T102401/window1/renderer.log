@@ -1,0 +1,178 @@
+2024-05-15 10:24:11.304 [info] Started local extension host with pid 75391.
+2024-05-15 10:24:17.657 [info] [perf] Render performance baseline is 50ms
+2024-05-15 10:24:20.205 [info] Extension host (LocalProcess pid: 75391) is unresponsive.
+2024-05-15 10:24:22.286 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-05-15 10:24:24.113 [info] Extension host (LocalProcess pid: 75391) is responsive.
+2024-05-15 10:24:24.114 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-15 10:24:30.145 [info] Extension host (LocalProcess pid: 75391) is unresponsive.
+2024-05-15 10:24:31.016 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-05-15 10:24:33.569 [info] Extension host (LocalProcess pid: 75391) is responsive.
+2024-05-15 10:24:33.570 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-15 21:41:59.527 [error] Cannot read properties of undefined (reading 'find'): TypeError: Cannot read properties of undefined (reading 'find')
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/opt/visual-studio-code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:131520)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/opt/visual-studio-code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:129879)
+	at ve.provideCompletionItems (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:105868)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:129046
+	at Ae.s (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:120151)
+	at Ae.$provideCompletionItems (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:129032)
+	at c.S (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:5505)
+	at c.Q (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:5271)
+	at c.M (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:4323)
+	at c.L (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:3440)
+	at a.value (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:2227)
+	at o.y (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+	at o.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+	at u.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:14175)
+	at a.value (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:8023)
+	at o.y (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+	at o.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+	at u.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:14175)
+	at MessagePortMain.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:6303)
+	at MessagePortMain.emit (node:events:517:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285)
+2024-05-15 22:06:05.211 [error] Error: The editor could not be opened because the file was not found.
+    at R.gc (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2152:28256)
+    at async R.setInput (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2152:27312)
+    at async n.S (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2150:24778)
+    at async n.L (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2150:23342)
+    at async n.openEditor (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2150:22331)
+    at async vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2307:24165
+2024-05-16 19:48:11.804 [info] Started local extension host with pid 2672316.
+2024-05-16 19:48:11.878 [error] AbstractContextKeyService has been disposed: Error: AbstractContextKeyService has been disposed
+    at g.contextMatchesRules (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:649:41684)
+    at i.createActionGroups (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:779:147432)
+    at f.getActions (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:779:149567)
+    at u._getValue (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:779:154339)
+    at d.n [as value] (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:89:12365)
+    at m.y (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:89:659)
+    at m.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:89:876)
+    at m.resume (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:89:1945)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:89:2226
+2024-05-16 23:14:10.771 [error] There are no commenting ranges at the current position.: Error: There are no commenting ranges at the current position.
+    at B.addCommentAtLine (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2074:2613)
+    at B.addOrToggleCommentAtLine (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2074:2143)
+    at B.ab (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2074:1848)
+    at d.value (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2073:33182)
+    at G.y (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:89:659)
+    at G.z (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:89:729)
+    at G.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:89:945)
+    at G.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:763:20393)
+    at Xb.fe.onMouseUp (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:763:18345)
+    at S.emitMouseUp (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:97:41896)
+    at L.emitMouseUp (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:694:40883)
+    at b.F (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:737:14799)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:737:12437
+    at HTMLDivElement.<anonymous> (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:732:36755)
+2024-05-17 16:58:44.691 [info] Settings Sync: Updating due to change in sessions
+2024-05-17 16:58:44.787 [info] Settings Sync: Updating due to change in sessions
+2024-05-18 16:59:13.213 [error] <semantic> TypeScript Server Error (5.4.5)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:177487:11)
+    at ScriptInfo.getDefaultProject (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:178240:23)
+    at _ProjectService.doEnsureDefaultProjectForFile (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:181597:36)
+    at _ProjectService.ensureDefaultProjectForFile (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:181592:75)
+    at IpcIOSession.getFileAndProjectWorker (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:186627:77)
+    at IpcIOSession.getFileAndProject (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:186613:17)
+    at IpcIOSession.getApplicableRefactors (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:187176:36)
+    at getApplicableRefactors (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:185405:43)
+    at /opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:187569:69
+    at IpcIOSession.executeWithRequestId (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:187561:14)
+    at IpcIOSession.executeCommand (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:187569:29)
+    at IpcIOSession.onMessage (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:187611:51)
+    at process.<anonymous> (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:189220:14)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21): Error: <semantic> TypeScript Server Error (5.4.5)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:177487:11)
+    at ScriptInfo.getDefaultProject (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:178240:23)
+    at _ProjectService.doEnsureDefaultProjectForFile (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:181597:36)
+    at _ProjectService.ensureDefaultProjectForFile (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:181592:75)
+    at IpcIOSession.getFileAndProjectWorker (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:186627:77)
+    at IpcIOSession.getFileAndProject (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:186613:17)
+    at IpcIOSession.getApplicableRefactors (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:187176:36)
+    at getApplicableRefactors (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:185405:43)
+    at /opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:187569:69
+    at IpcIOSession.executeWithRequestId (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:187561:14)
+    at IpcIOSession.executeCommand (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:187569:29)
+    at IpcIOSession.onMessage (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:187611:51)
+    at process.<anonymous> (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:189220:14)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+	at n.create (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:469462)
+	at v.dispatchResponse (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:463432)
+	at v.dispatchMessage (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:462276)
+	at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:461769)
+	at ChildProcess.emit (node:events:517:28)
+	at emit (node:internal/child_process:944:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-18 16:59:14.710 [error] <semantic> TypeScript Server Error (5.4.5)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:177487:11)
+    at ScriptInfo.getDefaultProject (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:178240:23)
+    at _ProjectService.doEnsureDefaultProjectForFile (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:181597:36)
+    at _ProjectService.ensureDefaultProjectForFile (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:181592:75)
+    at IpcIOSession.getFileAndProjectWorker (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:186627:77)
+    at IpcIOSession.getFileAndProject (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:186613:17)
+    at IpcIOSession.getApplicableRefactors (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:187176:36)
+    at getApplicableRefactors (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:185405:43)
+    at /opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:187569:69
+    at IpcIOSession.executeWithRequestId (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:187561:14)
+    at IpcIOSession.executeCommand (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:187569:29)
+    at IpcIOSession.onMessage (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:187611:51)
+    at process.<anonymous> (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:189220:14)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21): Error: <semantic> TypeScript Server Error (5.4.5)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:177487:11)
+    at ScriptInfo.getDefaultProject (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:178240:23)
+    at _ProjectService.doEnsureDefaultProjectForFile (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:181597:36)
+    at _ProjectService.ensureDefaultProjectForFile (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:181592:75)
+    at IpcIOSession.getFileAndProjectWorker (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:186627:77)
+    at IpcIOSession.getFileAndProject (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:186613:17)
+    at IpcIOSession.getApplicableRefactors (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:187176:36)
+    at getApplicableRefactors (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:185405:43)
+    at /opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:187569:69
+    at IpcIOSession.executeWithRequestId (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:187561:14)
+    at IpcIOSession.executeCommand (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:187569:29)
+    at IpcIOSession.onMessage (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:187611:51)
+    at process.<anonymous> (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:189220:14)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+	at n.create (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:469462)
+	at v.dispatchResponse (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:463432)
+	at v.dispatchMessage (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:462276)
+	at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:461769)
+	at ChildProcess.emit (node:events:517:28)
+	at emit (node:internal/child_process:944:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-18 17:28:56.025 [info] Settings Sync: Updating due to change in sessions
+2024-05-18 17:28:56.030 [info] Settings Sync: Updating due to change in sessions
+2024-05-18 18:09:25.591 [error] [File Watcher (node.js)] Failed to watch /home/daro_ops/Documents/campus/proyectoJavascript/node_modules/dotenv/package.json for changes using fs.watch() (Error: ENOENT: no such file or directory, watch '/home/daro_ops/Documents/campus/proyectoJavascript/node_modules/dotenv/package.json')
+2024-05-18 18:09:25.594 [error] [File Watcher (parcel)] Unexpected error stopping watcher: Unable to remove watcher: Invalid argument (path: /home/daro_ops/Documents/campus/proyectoJavascript/node_modules)
+2024-05-18 18:09:25.640 [error] [File Watcher (node.js)] Failed to watch /home/daro_ops/Documents/campus/proyectoJavascript/node_modules/@types/triple-beam/package.json for changes using fs.watch() (Error: ENOENT: no such file or directory, watch '/home/daro_ops/Documents/campus/proyectoJavascript/node_modules/@types/triple-beam/package.json')
+2024-05-18 18:09:25.641 [error] [File Watcher (node.js)] Failed to watch /home/daro_ops/Documents/campus/proyectoJavascript/node_modules/@types/mute-stream/package.json for changes using fs.watch() (Error: ENOENT: no such file or directory, watch '/home/daro_ops/Documents/campus/proyectoJavascript/node_modules/@types/mute-stream/package.json')
+2024-05-18 18:09:25.642 [error] [File Watcher (node.js)] Failed to watch /home/daro_ops/Documents/campus/proyectoJavascript/node_modules/@types/wrap-ansi/package.json for changes using fs.watch() (Error: ENOENT: no such file or directory, watch '/home/daro_ops/Documents/campus/proyectoJavascript/node_modules/@types/wrap-ansi/package.json')
+2024-05-18 18:09:25.643 [error] [File Watcher (node.js)] Failed to watch /home/daro_ops/Documents/campus/proyectoJavascript/node_modules/@types/node/package.json for changes using fs.watch() (Error: ENOENT: no such file or directory, watch '/home/daro_ops/Documents/campus/proyectoJavascript/node_modules/@types/node/package.json')
+2024-05-18 18:09:25.644 [error] [File Watcher (parcel)] Unexpected error stopping watcher: Unable to remove watcher: Invalid argument (path: /home/daro_ops/Documents/campus/proyectoJavascript/node_modules/@types)
+2024-05-18 19:10:35.798 [warning] [File Watcher (parcel)] Watcher shutdown because watched path got deleted (path: /home/daro_ops/Documents/campus/proyectoJavascript/js)
+2024-05-18 19:20:29.127 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-05-18 19:20:31.247 [error] [File Watcher (node.js)] Failed to watch /home/daro_ops/Documents/campus/proyectoJavascript/js/modules/getBentoIds.js for changes using fs.watch() (Error: ENOENT: no such file or directory, watch '/home/daro_ops/Documents/campus/proyectoJavascript/js/modules/getBentoIds.js')
+2024-05-18 19:20:31.269 [error] [File Watcher (node.js)] Failed to watch /home/daro_ops/Documents/campus/proyectoJavascript/js/modules/initMobile.js for changes using fs.watch() (Error: ENOENT: no such file or directory, watch '/home/daro_ops/Documents/campus/proyectoJavascript/js/modules/initMobile.js')
+2024-05-18 19:20:31.271 [error] [File Watcher (node.js)] Failed to watch /home/daro_ops/Documents/campus/proyectoJavascript/js/modules/insertSuggestions.js for changes using fs.watch() (Error: ENOENT: no such file or directory, watch '/home/daro_ops/Documents/campus/proyectoJavascript/js/modules/insertSuggestions.js')
+2024-05-18 19:20:31.273 [error] [File Watcher (node.js)] Failed to watch /home/daro_ops/Documents/campus/proyectoJavascript/js/modules/insertTracks.js for changes using fs.watch() (Error: ENOENT: no such file or directory, watch '/home/daro_ops/Documents/campus/proyectoJavascript/js/modules/insertTracks.js')
+2024-05-18 19:20:31.274 [error] [File Watcher (node.js)] Failed to watch /home/daro_ops/Documents/campus/proyectoJavascript/js/services/tracks/getAlbumsTracks.js for changes using fs.watch() (Error: ENOENT: no such file or directory, watch '/home/daro_ops/Documents/campus/proyectoJavascript/js/services/tracks/getAlbumsTracks.js')
+2024-05-18 19:20:31.274 [error] [File Watcher (node.js)] Failed to watch /home/daro_ops/Documents/campus/proyectoJavascript/js/components/components.js for changes using fs.watch() (Error: ENOENT: no such file or directory, watch '/home/daro_ops/Documents/campus/proyectoJavascript/js/components/components.js')
+2024-05-18 19:20:31.275 [error] [File Watcher (node.js)] Failed to watch /home/daro_ops/Documents/campus/proyectoJavascript/js/global.js for changes using fs.watch() (Error: ENOENT: no such file or directory, watch '/home/daro_ops/Documents/campus/proyectoJavascript/js/global.js')
+2024-05-18 19:20:31.276 [error] [File Watcher (node.js)] Failed to watch /home/daro_ops/Documents/campus/proyectoJavascript/js/components/playlistTracker/playlistTracker.js for changes using fs.watch() (Error: ENOENT: no such file or directory, watch '/home/daro_ops/Documents/campus/proyectoJavascript/js/components/playlistTracker/playlistTracker.js')
+2024-05-18 19:20:31.276 [error] [File Watcher (node.js)] Failed to watch /home/daro_ops/Documents/campus/proyectoJavascript/js/abstract/eventBus.js for changes using fs.watch() (Error: ENOENT: no such file or directory, watch '/home/daro_ops/Documents/campus/proyectoJavascript/js/abstract/eventBus.js')
+2024-05-18 19:20:31.277 [error] [File Watcher (node.js)] Failed to watch /home/daro_ops/Documents/campus/proyectoJavascript/js/utils/formatTime.js for changes using fs.watch() (Error: ENOENT: no such file or directory, watch '/home/daro_ops/Documents/campus/proyectoJavascript/js/utils/formatTime.js')
+2024-05-18 19:20:31.278 [error] [File Watcher (node.js)] Failed to watch /home/daro_ops/Documents/campus/proyectoJavascript/.git/refs/remotes/origin/main for changes using fs.watch() (Error: ENOENT: no such file or directory, watch '/home/daro_ops/Documents/campus/proyectoJavascript/.git/refs/remotes/origin/main')
+2024-05-18 19:22:42.444 [warning] [File Watcher (parcel)] Watcher shutdown because watched path got deleted (path: /home/daro_ops/Documents/campus/proyectoJavascript/js)

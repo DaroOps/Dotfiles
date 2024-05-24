@@ -1,0 +1,120 @@
+2024/05/15-10:25:11.938 12fad Reusing MANIFEST /home/daro_ops/.config/YouTube Music/Local Storage/leveldb/MANIFEST-000001
+2024/05/15-10:25:12.045 12fad Recovering log #359
+2024/05/15-10:25:12.083 12fad Reusing old log /home/daro_ops/.config/YouTube Music/Local Storage/leveldb/000359.log 
+2024/05/15-11:11:18.494 12fae Level-0 table #363: started
+2024/05/15-11:11:18.583 12fae Level-0 table #363: 15925 bytes OK
+2024/05/15-11:11:18.626 12fae Delete type=0 #359
+2024/05/15-11:11:18.626 12fae Compacting 4@0 + 1@1 files
+2024/05/15-11:11:18.694 12fae Generated table #364@0: 11 keys, 1188 bytes
+2024/05/15-11:11:18.695 12fae Compacted 4@0 + 1@1 files => 1188 bytes
+2024/05/15-11:11:18.735 12fae compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/05/15-11:11:18.735 12fae Delete type=2 #360
+2024/05/15-11:11:18.736 12fae Delete type=2 #358
+2024/05/15-11:11:18.736 12fae Delete type=2 #363
+2024/05/15-11:11:18.736 12fae Delete type=2 #353
+2024/05/15-11:11:18.736 12fae Delete type=2 #355
+2024/05/15-12:07:18.494 12fae Level-0 table #366: started
+2024/05/15-12:07:18.558 12fae Level-0 table #366: 16029 bytes OK
+2024/05/15-12:07:18.598 12fae Delete type=0 #362
+2024/05/15-13:04:18.494 12fae Level-0 table #368: started
+2024/05/15-13:04:18.590 12fae Level-0 table #368: 14707 bytes OK
+2024/05/15-13:04:18.635 12fae Delete type=0 #365
+2024/05/15-21:04:12.346 12fae Level-0 table #370: started
+2024/05/15-21:04:12.441 12fae Level-0 table #370: 15746 bytes OK
+2024/05/15-21:04:12.480 12fae Delete type=0 #367
+2024/05/15-21:50:36.908 12fae Level-0 table #372: started
+2024/05/15-21:50:37.017 12fae Level-0 table #372: 15044 bytes OK
+2024/05/15-21:50:37.060 12fae Delete type=0 #369
+2024/05/15-21:50:37.060 12fae Compacting 4@0 + 1@1 files
+2024/05/15-21:50:37.128 12fae Generated table #373@0: 11 keys, 1213 bytes
+2024/05/15-21:50:37.128 12fae Compacted 4@0 + 1@1 files => 1213 bytes
+2024/05/15-21:50:37.170 12fae compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/05/15-21:50:37.170 12fae Delete type=2 #372
+2024/05/15-21:50:37.170 12fae Delete type=2 #366
+2024/05/15-21:50:37.170 12fae Delete type=2 #364
+2024/05/15-21:50:37.170 12fae Delete type=2 #370
+2024/05/15-21:50:37.170 12fae Delete type=2 #368
+2024/05/15-22:35:45.918 12fae Level-0 table #375: started
+2024/05/15-22:35:46.040 12fae Level-0 table #375: 14704 bytes OK
+2024/05/15-22:35:46.128 12fae Delete type=0 #371
+2024/05/15-23:24:27.544 12fae Level-0 table #377: started
+2024/05/15-23:24:27.599 12fae Level-0 table #377: 15276 bytes OK
+2024/05/15-23:24:27.639 12fae Delete type=0 #374
+2024/05/16-00:09:01.042 12fae Level-0 table #379: started
+2024/05/16-00:09:01.123 12fae Level-0 table #379: 15305 bytes OK
+2024/05/16-00:09:01.161 12fae Delete type=0 #376
+2024/05/17-12:08:52.145 12fad Level-0 table #381: started
+2024/05/17-12:08:52.223 12fad Level-0 table #381: 16235 bytes OK
+2024/05/17-12:08:52.263 12fad Delete type=0 #378
+2024/05/17-12:08:52.264 12fad Compacting 4@0 + 1@1 files
+2024/05/17-12:08:52.323 12fad Generated table #382@0: 11 keys, 1202 bytes
+2024/05/17-12:08:52.323 12fad Compacted 4@0 + 1@1 files => 1202 bytes
+2024/05/17-12:08:52.433 12fad compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/05/17-12:08:52.434 12fad Delete type=2 #381
+2024/05/17-12:08:52.435 12fad Delete type=2 #377
+2024/05/17-12:08:52.435 12fad Delete type=2 #373
+2024/05/17-12:08:52.435 12fad Delete type=2 #379
+2024/05/17-12:08:52.436 12fad Delete type=2 #375
+2024/05/17-12:48:00.583 12fad Level-0 table #384: started
+2024/05/17-12:48:00.686 12fad Level-0 table #384: 14879 bytes OK
+2024/05/17-12:48:00.728 12fad Delete type=0 #380
+2024/05/17-13:31:44.587 12fae Level-0 table #386: started
+2024/05/17-13:31:44.674 12fae Level-0 table #386: 14709 bytes OK
+2024/05/17-13:31:44.720 12fae Delete type=0 #383
+2024/05/17-14:18:48.615 12fae Level-0 table #388: started
+2024/05/17-14:18:48.690 12fae Level-0 table #388: 15418 bytes OK
+2024/05/17-14:18:48.733 12fae Delete type=0 #385
+2024/05/17-15:06:45.980 12fae Level-0 table #390: started
+2024/05/17-15:06:46.063 12fae Level-0 table #390: 15423 bytes OK
+2024/05/17-15:06:46.106 12fae Delete type=0 #387
+2024/05/17-15:06:46.107 12fae Compacting 4@0 + 1@1 files
+2024/05/17-15:06:46.174 12fae Generated table #391@0: 11 keys, 1203 bytes
+2024/05/17-15:06:46.174 12fae Compacted 4@0 + 1@1 files => 1203 bytes
+2024/05/17-15:06:46.216 12fae compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/05/17-15:06:46.217 12fae Delete type=2 #386
+2024/05/17-15:06:46.217 12fae Delete type=2 #382
+2024/05/17-15:06:46.217 12fae Delete type=2 #384
+2024/05/17-15:06:46.217 12fae Delete type=2 #390
+2024/05/17-15:06:46.217 12fae Delete type=2 #388
+2024/05/17-15:48:52.838 12fae Level-0 table #393: started
+2024/05/17-15:48:53.065 12fae Level-0 table #393: 14548 bytes OK
+2024/05/17-15:48:53.107 12fae Delete type=0 #389
+2024/05/17-16:35:59.647 12fae Level-0 table #395: started
+2024/05/17-16:35:59.778 12fae Level-0 table #395: 15677 bytes OK
+2024/05/17-16:35:59.849 12fae Delete type=0 #392
+2024/05/17-17:22:30.616 12fae Level-0 table #397: started
+2024/05/17-17:22:30.953 12fae Level-0 table #397: 15520 bytes OK
+2024/05/17-17:22:31.562 12fae Delete type=0 #394
+2024/05/17-18:07:15.541 12fad Level-0 table #399: started
+2024/05/17-18:07:15.629 12fad Level-0 table #399: 15519 bytes OK
+2024/05/17-18:07:15.672 12fad Delete type=0 #396
+2024/05/17-18:07:15.673 12fad Compacting 4@0 + 1@1 files
+2024/05/17-18:07:15.753 12fad Generated table #400@0: 11 keys, 1213 bytes
+2024/05/17-18:07:15.753 12fad Compacted 4@0 + 1@1 files => 1213 bytes
+2024/05/17-18:07:15.793 12fad compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/05/17-18:07:15.794 12fad Delete type=2 #395
+2024/05/17-18:07:15.794 12fad Delete type=2 #397
+2024/05/17-18:07:15.794 12fad Delete type=2 #399
+2024/05/17-18:07:15.794 12fad Delete type=2 #391
+2024/05/17-18:07:15.795 12fad Delete type=2 #393
+2024/05/17-18:54:42.398 12fae Level-0 table #402: started
+2024/05/17-18:54:42.503 12fae Level-0 table #402: 15565 bytes OK
+2024/05/17-18:54:42.546 12fae Delete type=0 #398
+2024/05/17-19:41:16.531 12fae Level-0 table #404: started
+2024/05/17-19:41:16.585 12fae Level-0 table #404: 15951 bytes OK
+2024/05/17-19:41:16.631 12fae Delete type=0 #401
+2024/05/17-20:26:20.889 12fad Level-0 table #406: started
+2024/05/17-20:26:20.995 12fad Level-0 table #406: 15550 bytes OK
+2024/05/17-20:26:21.040 12fad Delete type=0 #403
+2024/05/17-21:13:56.286 12fad Level-0 table #408: started
+2024/05/17-21:13:56.361 12fad Level-0 table #408: 15724 bytes OK
+2024/05/17-21:13:56.473 12fad Delete type=0 #405
+2024/05/17-21:13:56.476 12fad Compacting 4@0 + 1@1 files
+2024/05/17-21:13:56.641 12fad Generated table #409@0: 11 keys, 1192 bytes
+2024/05/17-21:13:56.641 12fad Compacted 4@0 + 1@1 files => 1192 bytes
+2024/05/17-21:13:56.817 12fad compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/05/17-21:13:56.818 12fad Delete type=2 #408
+2024/05/17-21:13:56.818 12fad Delete type=2 #404
+2024/05/17-21:13:56.818 12fad Delete type=2 #400
+2024/05/17-21:13:56.818 12fad Delete type=2 #402
+2024/05/17-21:13:56.818 12fad Delete type=2 #406

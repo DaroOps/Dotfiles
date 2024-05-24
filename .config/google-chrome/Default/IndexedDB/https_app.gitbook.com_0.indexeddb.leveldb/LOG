@@ -1,0 +1,50 @@
+2024/05/18-20:07:50.413 1406fe Creating DB /home/daro_ops/.config/google-chrome/Default/IndexedDB/https_app.gitbook.com_0.indexeddb.leveldb since it was missing.
+2024/05/18-20:07:50.728 1406fe Reusing MANIFEST /home/daro_ops/.config/google-chrome/Default/IndexedDB/https_app.gitbook.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/05/18-20:07:52.026 1407be Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/05/18-20:08:37.851 1407bd Level-0 table #5: started
+2024/05/18-20:08:38.055 1407bd Level-0 table #5: 14273 bytes OK
+2024/05/18-20:08:38.226 1407bd Delete type=0 #3
+2024/05/18-20:08:38.227 14071d Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/05/18-20:08:41.823 1407be Manual compaction at level-0 from '\x00\x08\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/05/18-20:09:30.770 1407bc Level-0 table #7: started
+2024/05/18-20:09:30.865 1407bc Level-0 table #7: 19136 bytes OK
+2024/05/18-20:09:31.056 1407bc Delete type=0 #4
+2024/05/18-20:09:31.056 1406ff Manual compaction at level-0 from '\x00\x09\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/05/18-20:09:59.634 1406ff Compacting 1@1 + 1@2 files
+2024/05/18-20:09:59.692 1406ff Generated table #8@1: 124 keys, 9308 bytes
+2024/05/18-20:09:59.692 1406ff Compacted 1@1 + 1@2 files => 9308 bytes
+2024/05/18-20:09:59.737 1406ff compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/05/18-20:09:59.737 1406ff Delete type=2 #7
+2024/05/18-20:09:59.738 1406ff Delete type=2 #5
+2024/05/18-20:10:13.199 1407bc Level-0 table #10: started
+2024/05/18-20:10:13.378 1407bc Level-0 table #10: 15631 bytes OK
+2024/05/18-20:10:13.603 1407bc Delete type=0 #6
+2024/05/18-20:10:13.603 1406fe Manual compaction at level-0 from '\x00\x0a\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0b\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/05/18-20:10:23.382 14071d Level-0 table #12: started
+2024/05/18-20:10:23.426 14071d Level-0 table #12: 11749 bytes OK
+2024/05/18-20:10:23.466 14071d Delete type=0 #9
+2024/05/18-20:10:23.466 1406ff Manual compaction at level-0 from '\x00\x0b\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0c\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0b\x00\x00\x05' @ 921 : 1
+2024/05/18-20:10:23.466 1406ff Compacting 1@0 + 1@1 files
+2024/05/18-20:10:23.504 1406ff Generated table #13@0: 137 keys, 8298 bytes
+2024/05/18-20:10:23.504 1406ff Compacted 1@0 + 1@1 files => 8298 bytes
+2024/05/18-20:10:23.543 1406ff compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/05/18-20:10:23.543 1406ff Delete type=2 #12
+2024/05/18-20:10:23.544 1406ff Manual compaction at level-0 from '\x00\x0b\x00\x00\x05' @ 921 : 1 .. '\x00\x0c\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/05/18-20:10:42.311 14071d Level-0 table #15: started
+2024/05/18-20:10:42.377 14071d Level-0 table #15: 11744 bytes OK
+2024/05/18-20:10:42.424 14071d Delete type=0 #11
+2024/05/18-20:10:42.424 14071d Delete type=2 #10
+2024/05/18-20:10:42.424 1406ff Manual compaction at level-0 from '\x00\x0c\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0d\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0c\x00\x00\x05' @ 1029 : 1
+2024/05/18-20:10:42.424 1406ff Compacting 1@0 + 1@1 files
+2024/05/18-20:10:42.544 1406ff Generated table #16@0: 175 keys, 9220 bytes
+2024/05/18-20:10:42.544 1406ff Compacted 1@0 + 1@1 files => 9220 bytes
+2024/05/18-20:10:42.676 1406ff compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/05/18-20:10:42.677 1406ff Delete type=2 #15
+2024/05/18-20:10:42.677 1406ff Manual compaction at level-0 from '\x00\x0c\x00\x00\x05' @ 1029 : 1 .. '\x00\x0d\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/05/18-20:11:10.408 1406ff Compacting 1@1 + 1@2 files
+2024/05/18-20:11:10.525 1406ff Generated table #17@1: 144 keys, 9684 bytes
+2024/05/18-20:11:10.525 1406ff Compacted 1@1 + 1@2 files => 9684 bytes
+2024/05/18-20:11:10.584 1406ff compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/05/18-20:11:10.585 1406ff Delete type=2 #8
+2024/05/18-20:11:10.586 1406ff Delete type=2 #16
+2024/05/18-20:11:10.586 1406ff Delete type=2 #13

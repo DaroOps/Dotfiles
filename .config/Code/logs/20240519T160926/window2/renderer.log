@@ -1,0 +1,3 @@
+2024-05-20 11:52:07.536 [info] Started local extension host with pid 208850.
+2024-05-20 11:52:10.373 [info] [perf] Render performance baseline is 59ms
+2024-05-20 11:52:18.492 [warning] [remote-ssh]: Couldn't find message for key setting.usseExecServer.description.

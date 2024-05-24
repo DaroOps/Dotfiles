@@ -1,0 +1,6 @@
+2024/05/01-12:25:17.828 fcc1 Reusing MANIFEST /home/daro_ops/.config/figma-linux/Local Storage/leveldb/MANIFEST-000001
+2024/05/01-12:25:17.829 fcc1 Recovering log #3
+2024/05/01-12:25:18.416 fcc1 Reusing old log /home/daro_ops/.config/figma-linux/Local Storage/leveldb/000003.log 
+2024/05/02-06:05:10.787 fcc1 Level-0 table #5: started
+2024/05/02-06:05:10.873 fcc1 Level-0 table #5: 14641 bytes OK
+2024/05/02-06:05:10.923 fcc1 Delete type=0 #3

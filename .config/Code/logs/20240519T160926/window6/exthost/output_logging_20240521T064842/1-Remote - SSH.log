@@ -1,0 +1,43 @@
+[06:48:42.716] Log Level: 2
+[06:48:42.731] VS Code version: 1.89.1
+[06:48:42.731] Remote-SSH version: remote-ssh@0.110.1
+[06:48:42.731] linux x64
+[06:48:42.737] SSH Resolver called for "ssh-remote+172.16.101.146", attempt 1
+[06:48:42.738] "remote.SSH.useLocalServer": true
+[06:48:42.738] "remote.SSH.useExecServer": true
+[06:48:42.738] "remote.SSH.path": undefined
+[06:48:42.738] "remote.SSH.configFile": undefined
+[06:48:42.738] "remote.SSH.useFlock": true
+[06:48:42.738] "remote.SSH.lockfilesInTmp": false
+[06:48:42.738] "remote.SSH.localServerDownload": auto
+[06:48:42.738] "remote.SSH.remoteServerListenOnSocket": false
+[06:48:42.739] "remote.SSH.showLoginTerminal": false
+[06:48:42.739] "remote.SSH.defaultExtensions": []
+[06:48:42.739] "remote.SSH.loglevel": 2
+[06:48:42.739] "remote.SSH.enableDynamicForwarding": true
+[06:48:42.739] "remote.SSH.enableRemoteCommand": false
+[06:48:42.739] "remote.SSH.serverPickPortsFromRange": {}
+[06:48:42.739] "remote.SSH.serverInstallPath": {}
+[06:48:42.743] SSH Resolver called for host: 172.16.101.146
+[06:48:42.743] Setting up SSH remote "172.16.101.146"
+[06:48:42.748] Acquiring local install lock: /tmp/vscode-remote-ssh-66fb6ad3-install.lock
+[06:48:42.749] Looking for existing server data file at /home/daro_ops/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-66fb6ad3-dc96b837cf6bb4af9cd736aa3af08cf8279f7685-0.110.1-es/data.json
+[06:48:42.750] Found local server running: {"remoteListeningOn":{"port":39341},"osReleaseId":"ubuntu","arch":"x86_64","sshAuthSock":"","display":"","tmpDir":"/run/user/1062","platform":"linux","execServerToken":"08c29068-7c33-46cb-ad80-8a2fafde0885","pid":2099101,"ipcHandlePath":"/run/user/1000/vscode-ssh-askpass-122a045d9547311c0710e8b863888d8cc2fd4121.sock","socksPort":40731,"startupTime":1716292044890}
+[06:48:42.761] Found running server - short-circuiting install
+[06:48:42.765] Starting forwarding server. local port 40389 -> socksPort 40731 -> remotePort 39341
+[06:48:42.765] Forwarding server listening on port 40389
+[06:48:42.766] Waiting for ssh tunnel to be ready
+[06:48:42.767] [Forwarding server port 40389] Got connection 0
+[06:48:42.768] Tunneled port 39341 to local port 40389
+[06:48:42.768] Resolved "ssh-remote+172.16.101.146" to "port 40389"
+[06:48:42.782] Initizing new exec server for ssh-remote+172.16.101.146
+[06:48:42.782] Resolving exec server at port 40389
+[06:48:42.810] [Forwarding server port 40389] Got connection 1
+[06:48:42.885] Exec server for ssh-remote+172.16.101.146 created and cached
+[06:48:42.901] ------
+
+
+
+
+[06:48:42.915] [server] Checking /home/davidstevenromeroserrano/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/log.txt and /home/davidstevenromeroserrano/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/pid.txt for a running server...
+[06:48:42.917] [server] Found running server (pid=61002)

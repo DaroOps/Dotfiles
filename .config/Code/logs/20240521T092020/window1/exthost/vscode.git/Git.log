@@ -1,0 +1,40 @@
+2024-05-21 09:20:21.895 [info] Log level: Info
+2024-05-21 09:20:21.895 [info] Validating found git in: "git"
+2024-05-21 09:20:21.895 [info] Using git "2.45.1" from "git"
+2024-05-21 09:21:03.647 [info] Log level: Info
+2024-05-21 09:21:03.647 [info] Validating found git in: "git"
+2024-05-21 09:21:03.647 [info] Using git "2.45.1" from "git"
+2024-05-21 09:21:03.647 [info] > git rev-parse --show-toplevel [9ms]
+2024-05-21 09:21:03.673 [info] > git rev-parse --git-dir --git-common-dir [9ms]
+2024-05-21 09:21:03.687 [info] Open repository: /home/daro_ops/Documents/campus/proyectoJavascript
+2024-05-21 09:21:03.706 [info] > git rev-parse --show-toplevel [3ms]
+2024-05-21 09:21:03.709 [info] > git config --get commit.template [10ms]
+2024-05-21 09:21:03.729 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-05-21 09:21:03.730 [info] > git rev-parse --show-toplevel [11ms]
+2024-05-21 09:21:03.743 [info] > git status -z -uall [4ms]
+2024-05-21 09:21:03.765 [info] > git merge-base refs/heads/main refs/remotes/origin/main [12ms]
+2024-05-21 09:21:03.771 [info] > git config --get commit.template [6ms]
+2024-05-21 09:21:03.775 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [6ms]
+2024-05-21 09:21:03.782 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-05-21 09:21:03.787 [info] > git diff --name-status -z --diff-filter=ADMR e0696c878a135cc6aff4dae64c96667a77e7cc30...refs/remotes/origin/main [6ms]
+2024-05-21 09:21:03.797 [info] > git status -z -uall [3ms]
+2024-05-21 09:21:04.247 [info] > git check-ignore -v -z --stdin [2ms]
+2024-05-21 09:21:07.306 [info] > git check-ignore -v -z --stdin [4ms]
+2024-05-21 09:21:08.622 [info] > git check-ignore -v -z --stdin [3ms]
+2024-05-21 09:21:09.518 [info] > git check-ignore -v -z --stdin [1ms]
+2024-05-21 09:21:10.705 [info] > git show --textconv :js/abstract/eventBus.js [11ms]
+2024-05-21 09:21:10.711 [info] > git ls-files --stage -- /home/daro_ops/Documents/campus/proyectoJavascript/js/abstract/eventBus.js [8ms]
+2024-05-21 09:21:10.720 [info] > git cat-file -s 6b369f3598ae3639f2ac98751a0827ed835a28b8 [3ms]
+2024-05-21 09:21:15.637 [info] > git check-ignore -v -z --stdin [3ms]
+2024-05-21 09:21:53.688 [info] > git check-ignore -v -z --stdin [4ms]
+2024-05-21 09:21:55.154 [info] > git show --textconv :js/components/bentoFinded/bentoFinded.js [9ms]
+2024-05-21 09:21:55.157 [info] > git ls-files --stage -- /home/daro_ops/Documents/campus/proyectoJavascript/js/components/bentoFinded/bentoFinded.js [4ms]
+2024-05-21 09:21:55.167 [info] > git cat-file -s 25c1363990c3a4e3fdaf1403561756381e799fa6 [3ms]
+2024-05-21 09:22:03.388 [info] > git show --textconv :js/abstract/eventBus.js [10ms]
+2024-05-21 09:22:03.391 [info] > git ls-files --stage -- /home/daro_ops/Documents/campus/proyectoJavascript/js/abstract/eventBus.js [3ms]
+2024-05-21 09:22:03.403 [info] > git cat-file -s 6b369f3598ae3639f2ac98751a0827ed835a28b8 [2ms]
+2024-05-21 09:22:06.634 [info] > git show --textconv :js/components/albumCard/albumCard.js [10ms]
+2024-05-21 09:22:06.635 [info] > git ls-files --stage -- /home/daro_ops/Documents/campus/proyectoJavascript/js/components/albumCard/albumCard.js [3ms]
+2024-05-21 09:22:06.643 [info] > git cat-file -s 607f620606439414f23110b89b2be4804a2dd56b [3ms]
+2024-05-21 09:26:47.771 [info] > git check-ignore -v -z --stdin [2ms]
+2024-05-21 09:26:49.524 [info] > git check-ignore -v -z --stdin [4ms]

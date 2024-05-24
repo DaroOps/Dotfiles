@@ -1,0 +1,98 @@
+2024-05-15 10:24:04.404 [info] update#setState idle
+2024-05-15 10:24:30.143 [warning] No ptyHost heartbeat after 6 seconds
+2024-05-15 10:24:34.591 [info] update#setState checking for updates
+2024-05-15 10:24:34.752 [info] update#setState idle
+2024-05-15 11:24:34.594 [info] update#setState checking for updates
+2024-05-15 11:24:34.885 [info] update#setState idle
+2024-05-15 12:24:34.597 [info] update#setState checking for updates
+2024-05-15 12:24:34.971 [info] update#setState idle
+2024-05-15 13:55:13.315 [info] update#setState checking for updates
+2024-05-15 13:55:13.326 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:108522)
+    at SimpleURLLoaderWrapper.emit (node:events:517:28)
+2024-05-15 13:55:13.331 [info] update#setState idle
+2024-05-15 17:42:08.153 [info] update#setState checking for updates
+2024-05-15 17:42:08.425 [info] update#setState idle
+2024-05-15 18:42:08.160 [info] update#setState checking for updates
+2024-05-15 18:42:08.425 [info] update#setState idle
+2024-05-15 19:42:08.166 [info] update#setState checking for updates
+2024-05-15 19:42:08.475 [info] update#setState idle
+2024-05-15 20:42:08.172 [info] update#setState checking for updates
+2024-05-15 20:42:08.471 [info] update#setState idle
+2024-05-15 21:42:08.177 [info] update#setState checking for updates
+2024-05-15 21:42:08.496 [info] update#setState idle
+2024-05-15 22:42:08.180 [info] update#setState checking for updates
+2024-05-15 22:42:08.878 [info] update#setState idle
+2024-05-15 23:42:08.185 [info] update#setState checking for updates
+2024-05-15 23:42:08.496 [info] update#setState idle
+2024-05-16 14:12:44.749 [info] update#setState checking for updates
+2024-05-16 14:12:45.068 [info] update#setState idle
+2024-05-16 19:48:11.722 [info] Extension host with pid 75391 exited with code: 0, signal: unknown.
+2024-05-16 20:32:53.118 [info] update#setState checking for updates
+2024-05-16 20:32:53.436 [info] update#setState idle
+2024-05-16 21:32:53.123 [info] update#setState checking for updates
+2024-05-16 21:32:54.766 [info] update#setState idle
+2024-05-16 22:32:53.128 [info] update#setState checking for updates
+2024-05-16 22:32:53.455 [info] update#setState idle
+2024-05-16 23:32:53.132 [info] update#setState checking for updates
+2024-05-16 23:32:53.449 [info] update#setState idle
+2024-05-17 10:01:43.504 [info] update#setState checking for updates
+2024-05-17 10:01:43.778 [info] update#setState idle
+2024-05-17 11:01:43.507 [info] update#setState checking for updates
+2024-05-17 11:01:43.824 [info] update#setState idle
+2024-05-17 12:01:43.510 [info] update#setState checking for updates
+2024-05-17 12:01:43.828 [info] update#setState idle
+2024-05-17 13:01:43.515 [info] update#setState checking for updates
+2024-05-17 13:01:43.799 [info] update#setState idle
+2024-05-17 14:01:43.518 [info] update#setState checking for updates
+2024-05-17 14:01:43.837 [info] update#setState idle
+2024-05-17 15:01:43.522 [info] update#setState checking for updates
+2024-05-17 15:01:43.812 [info] update#setState idle
+2024-05-17 16:01:43.528 [info] update#setState checking for updates
+2024-05-17 16:01:43.939 [info] update#setState idle
+2024-05-17 17:01:43.634 [info] update#setState checking for updates
+2024-05-17 17:01:43.902 [info] update#setState idle
+2024-05-17 18:01:43.639 [info] update#setState checking for updates
+2024-05-17 18:01:43.962 [info] update#setState idle
+2024-05-17 19:01:43.642 [info] update#setState checking for updates
+2024-05-17 19:01:43.912 [info] update#setState idle
+2024-05-17 20:01:43.645 [info] update#setState checking for updates
+2024-05-17 20:01:43.920 [info] update#setState idle
+2024-05-17 21:01:43.651 [info] update#setState checking for updates
+2024-05-17 21:01:43.922 [info] update#setState idle
+2024-05-17 22:01:43.654 [info] update#setState checking for updates
+2024-05-17 22:01:43.979 [info] update#setState idle
+2024-05-18 08:21:29.158 [info] update#setState checking for updates
+2024-05-18 08:21:29.485 [info] update#setState idle
+2024-05-18 09:21:28.502 [info] update#setState checking for updates
+2024-05-18 09:21:28.852 [info] update#setState idle
+2024-05-18 10:21:28.507 [info] update#setState checking for updates
+2024-05-18 10:21:28.772 [info] update#setState idle
+2024-05-18 11:21:28.510 [info] update#setState checking for updates
+2024-05-18 11:21:28.909 [info] update#setState idle
+2024-05-18 12:21:28.514 [info] update#setState checking for updates
+2024-05-18 12:21:28.838 [info] update#setState idle
+2024-05-18 13:21:28.519 [info] update#setState checking for updates
+2024-05-18 13:21:28.835 [info] update#setState idle
+2024-05-18 14:21:28.526 [info] update#setState checking for updates
+2024-05-18 14:21:28.845 [info] update#setState idle
+2024-05-18 15:21:28.531 [info] update#setState checking for updates
+2024-05-18 15:21:28.851 [info] update#setState idle
+2024-05-18 16:21:28.536 [info] update#setState checking for updates
+2024-05-18 16:21:28.918 [info] update#setState idle
+2024-05-18 17:21:28.589 [info] update#setState checking for updates
+2024-05-18 17:21:28.916 [info] update#setState idle
+2024-05-18 18:21:28.599 [info] update#setState checking for updates
+2024-05-18 18:21:28.997 [info] update#setState idle
+2024-05-18 19:21:28.605 [info] update#setState checking for updates
+2024-05-18 19:21:28.937 [info] update#setState idle
+2024-05-18 20:21:28.610 [info] update#setState checking for updates
+2024-05-18 20:21:29.108 [info] update#setState idle
+2024-05-18 21:21:28.617 [info] update#setState checking for updates
+2024-05-18 21:21:28.928 [info] update#setState idle
+2024-05-19 14:35:50.801 [info] update#setState checking for updates
+2024-05-19 14:35:51.126 [info] update#setState idle
+2024-05-19 15:35:50.804 [info] update#setState checking for updates
+2024-05-19 15:35:51.079 [info] update#setState idle
+2024-05-19 16:09:02.185 [error] Blocked vscode-file request vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/base/worker/workerMain.js#editorWorkerService
+2024-05-19 16:09:02.332 [info] Extension host with pid 2672316 exited with code: 0, signal: unknown.

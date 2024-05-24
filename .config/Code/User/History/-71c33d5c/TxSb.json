@@ -1,0 +1,19 @@
+{
+  "name": "infusioncodigocafeinado",
+  "version": "1.0.0",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "dev" : "node ./js/main.js",
+    "server" : "json-server ./js/db/clients.json --port 5001 & json-server ./js/db/employees.json --port 5002 & ",
+    "close" : "fuser -k 5001/tcp & fuser -k 5002/tcp & fuser -k 5003/tcp & fuser -k 5004/tcp & fuser -k 5005/tcp & fuser -k 5006/tcp & fuser -k 5007/tcp & fuser -k 5008/tcp"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "json-server": "^1.0.0-alpha.23"
+  }
+}

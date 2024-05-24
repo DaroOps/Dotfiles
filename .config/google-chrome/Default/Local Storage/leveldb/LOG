@@ -1,0 +1,9 @@
+2024/05/18-20:05:46.391 4 Reusing MANIFEST /home/daro_ops/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2024/05/18-20:05:46.392 4 Recovering log #3
+2024/05/18-20:05:46.393 4 Reusing old log /home/daro_ops/.config/google-chrome/Default/Local Storage/leveldb/000003.log 
+2024/05/18-20:06:07.636 6 Level-0 table #5: started
+2024/05/18-20:06:07.703 6 Level-0 table #5: 70654 bytes OK
+2024/05/18-20:06:07.747 6 Delete type=0 #3
+2024/05/18-20:07:39.232 4 Level-0 table #7: started
+2024/05/18-20:07:39.280 4 Level-0 table #7: 43898 bytes OK
+2024/05/18-20:07:39.328 4 Delete type=0 #4

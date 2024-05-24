@@ -1,0 +1,6 @@
+[Bookmarks]
+[Recent]
+/home/daro_ops/Package/Blender/
+/home/daro_ops/Downloads/
+/home/daro_ops/Documents/godot/projects/basic_fps/Assets/Models/
+/home/daro_ops/Downloads/gameAssets/3D/gunVoxel/

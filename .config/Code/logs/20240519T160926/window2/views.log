@@ -1,0 +1,15 @@
+2024-05-20 11:52:07.465 [info] Added views:workbench.panel.markers.view in workbench.panel.markers
+2024-05-20 11:52:07.465 [info] Added views:workbench.panel.output in workbench.panel.output
+2024-05-20 11:52:07.465 [info] Added views:terminal in terminal
+2024-05-20 11:52:07.465 [info] Added views:outline in workbench.view.explorer
+2024-05-20 11:52:07.465 [info] Added views:workbench.scm in workbench.view.scm
+2024-05-20 11:52:07.465 [info] Added views:workbench.view.search in workbench.view.search
+2024-05-20 11:52:07.465 [info] Added views:workbench.explorer.emptyView in workbench.view.explorer
+2024-05-20 11:52:07.729 [info] Added views:github-actions.empty-view in workbench.view.extension.github-actions
+2024-05-20 11:52:07.730 [info] Added views:thunder-client-sidebar in workbench.view.extension.thunder-client
+2024-05-20 11:52:08.125 [info] Added views:workbench.debug.variablesView,workbench.debug.watchExpressionsView,workbench.debug.callStackView,workbench.debug.breakPointsView in workbench.view.debug
+2024-05-20 11:52:08.155 [info] Added views:workbench.panel.repl.view in workbench.panel.repl
+2024-05-20 11:52:08.157 [info] Removed views:workbench.debug.breakPointsView,workbench.debug.callStackView,workbench.debug.watchExpressionsView,workbench.debug.variablesView from workbench.view.debug
+2024-05-20 11:52:08.158 [info] Added views:workbench.debug.welcome in workbench.view.debug
+2024-05-20 11:52:08.353 [info] Added views:~remote.forwardedPorts in ~remote.forwardedPortsContainer
+2024-05-20 11:52:18.536 [info] Added views:remoteTargets in workbench.view.remote
